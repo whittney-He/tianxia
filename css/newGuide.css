@@ -1,0 +1,509 @@
+/*header部分*/
+.header{
+    height: 504px;
+    background: url("../images/newGuide/header.jpg") no-repeat center 0;
+}
+.header .h-main{
+    width: 960px;
+    height: 504px;
+    position: relative;
+    margin: 0 auto;
+}
+.header .h-main .h-top h1{
+    text-indent: -9999px;
+}
+#h-logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+    display: block;
+    text-indent: -9999px;
+}
+.header .h-main .h-top .h-nav{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    float: right;
+}
+.header .h-main .h-top .h-nav li{
+    float: left;
+    display: inline-block;
+}
+.header .h-main .h-top .h-nav li span{
+    height: 20px;
+    color: #3C3C3C;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 6px;
+}
+.header .h-main .h-top .h-nav li a{
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+    color: #3C3C3C;
+    font-family: "SimSun";
+    margin-right: 13px;
+    margin-left: 6px;
+}
+.header .h-main .h-top .h-nav li a:hover{
+    color: #ff7219;
+    text-decoration: underline;
+}
+/*header部分下面导航*/
+.header .h-main .h-bottom{
+    position: absolute;
+    top: 394px;
+    width: 1000px;
+    height: 110px;
+    overflow: hidden;
+    text-align: center;
+}
+#h-bottom-nav ul{
+
+    height: 110px;
+}
+#h-bottom-nav li{
+    float: left;
+    height: 110px;
+}
+#h-bottom-nav li a{
+    width: 155px;
+    height: 110px;
+    color: #C1C1C1;
+    line-height: 110px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+}
+/*#h-footer-nav li a:hover{*/
+    /*color: #ff7219;*/
+/*}*/
+#h-bottom-nav .current{
+    color: #ff7219;
+}
+/*header部分---E*/
+
+/*content部分---B*/
+.content{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+/*小编有言部分*/
+.content .content-say{
+    height: 94px;
+    margin-top: 86px;
+}
+.content .content-say .content-say-l{
+    float: left;
+    width: 60px;
+    height: 72px;
+    display: inline-block;
+    padding: 11px 53px 11px 53px;
+    background-color: #727272;
+}
+.content .content-say .content-say-l h3{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+}
+.content .content-say .content-say-r{
+    display: inline-block;
+    width: 729px;
+    height: 48px;
+    padding: 23px 31px 23px 34px;
+    background-color: #F2F2F2;
+}
+.content .content-say .content-say-r p{
+    color: #8E8E8E;
+    font-family: "SimSun";
+    font-size: 14px;
+    line-height: 24px;
+}
+/*地图展示部分*/
+.content-show{
+    width: 960px;
+    height: 2765px;
+}
+.content-show .part-map{
+    height: 395px;
+    /*background-color: yellow;*/
+}
+.content-show .part-map .map-title{
+    height: 70px;
+    margin-top: 42px;
+    border-bottom: 2px solid #C3C3C3;
+}
+.content-show .part-map .map-title p{
+    color: #6D6D6D;
+    height: 24px;
+    line-height: 24px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.content-show .part-map .map-title h3{
+    line-height: 36px;
+    font-size: 30px;
+    color: #FF5400;
+    font-weight: 700;
+}
+.content-show .part-map .num1{
+    background: url("../images/newGuide/num.jpg") no-repeat 190px 0;
+}
+.content-show .part-map .num2{
+    background: url("../images/newGuide/num.jpg") no-repeat 190px -70px;
+}
+.content-show .part-map .num3{
+    background: url("../images/newGuide/num.jpg") no-repeat 190px -140px;
+}
+.content-show .part-map .num4{
+    background: url("../images/newGuide/num.jpg") no-repeat 190px -210px;
+}
+.content-show .part-map .num5{
+    background: url("../images/newGuide/num.jpg") no-repeat 190px -280px;
+}
+.content-show .part-map .num6{
+    background: url("../images/newGuide/num.jpg") no-repeat 190px -350px;
+}
+.content-show .part-map .num7{
+    background: url("../images/newGuide/num.jpg") no-repeat 190px -420px;
+}
+
+.content-show .part-map .map-pic{
+    height: 266px;
+    margin-top:15px;
+    background-color: #F2F2F2;
+}
+.map-pic-l,
+.map-pic-r{
+    display: inline-block;
+    width: 430px;
+    height: 266px;
+}
+.map-pic .map-pic-l h4,
+.map-pic .map-pic-r h4{
+    color: #4D5158;
+    width: 404px;
+    font-size: 20px;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    padding-left:26px;
+    border-bottom: 1px solid #CECECE;
+}
+.map-pic-l .left{
+    float: left;
+}
+.map-pic-l a img,
+.map-pic-r a img{
+    width: 210px;
+    height: 210px;
+    margin-top: 10px;
+}
+.map-pic-l .right{
+    float: left;
+}
+.map-pic-l .right,
+.map-pic-r .right{
+    width: 199px;
+    height: 210px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 11px;
+}
+.map-pic-l .right p,
+.map-pic-r .right p{
+    line-height: 24px;
+    font-family:"simsun";
+    color: #6E6E6E;
+}
+.map-pic-l .right p span,
+.map-pic-r .right p span{
+    color: #FF5500;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+.pic-btn{
+    position: absolute;
+}
+.pic-btn a{
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 16px;
+    left: 105px;
+    width: 95px;
+    height: 24px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    background-color: #FF5400;
+}
+.map-pic .map-pic-r{
+    float: right;
+}
+.map-pic-r .right,
+.map-pic-r .left{
+    float: left;
+}
+/*content部分---E*/
+
+/*footer部分---B*/
+/*分享*/
+.hot-share {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 39px;
+    padding-bottom:39px;
+}
+
+.hot-share span, .hot-share a {
+    font-size: 15px;
+    color: #646464;
+    font-weight: 400;
+}
+
+.hot-share span {
+    float: left;
+}
+
+/*分享列表*/
+.hot-share-single ul {
+    float: left;
+}
+
+.hot-share-single li {
+    float: left;
+    padding-left: 10px;
+}
+
+.hot-share-single li a::before {
+    font-size: 18px;
+    padding-right: 3px;
+    -webkit-transition: color .3s linear;
+    -moz-transition: color .3s linear;
+    -ms-transition: color .3s linear;
+    -o-transition: color .3s linear;
+    transition: color .3s linear;
+}
+
+.hot-share-single li a:hover, .hot-share-single li a:hover::before {
+    color: #ff7219;
+}
+
+/*更多部分*/
+.hot-share-more {
+    position: absolute;
+    top: 44px;
+    right: -121px;
+    width: 206px;
+    height: 90px;
+    border: 1px solid #bababa;
+    display: none;
+}
+
+.hot-share-more li {
+    float: left;
+    padding: 2px;
+}
+
+.hot-share-more li a {
+    display: block;
+    width: 97px;
+    height: 24px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    font-family: "simSun";
+    text-indent: 30px;
+    background: url("../images/icon_v5.png") no-repeat;
+}
+.hot-share-more li a.rr {
+    background-position: 5px -174px;
+}
+.hot-share-more li a.tx {
+    background-position: 5px -48px;
+}
+
+.hot-share-more li a.qq {
+    background-position: 5px -474px;
+}
+
+.hot-share-more li a.db {
+    background-position: 5px -248px;
+}
+
+.hot-share-more li a.bd {
+    background-position: 5px -298px;
+}
+
+.hot-share-more li a:hover {
+    border: 1px solid #dcdbdc;
+    background-color: #eee;
+}
+
+.footerWrap {
+    width: 959px;
+    padding-top: 60px;
+    padding-bottom: 28px;
+    margin:0 auto;
+    border-top:1px dotted #CCCCCC;
+}
+
+.footerWrap .footer {
+    position: relative;
+    width: 832px;
+    margin: 0 auto;
+}
+
+.footer span, .footer a {
+    color: #fff;
+    font-size: 12px;
+    font-family: "simSun";
+}
+
+.footer span {
+    vertical-align: middle;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    display: inline-block;
+    height: 31px;
+}
+
+.footer-logo .netease1 {
+    display: inline-block;
+    width: 118px;
+    height: 31px;
+    background: url("../images/newGuide/netease.1.png");
+}
+
+.footer-logo .nie1 {
+    display: inline-block;
+    width: 134px;
+    height: 31px;
+    background: url("../images/newGuide/nie.1.png");
+}
+
+.footer-logo .wen {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: url("../images/wen.png");
+    margin-left: 10px;
+}
+
+.footer-frindLink {
+    display: inline-block;
+    height: 31px;
+    padding-left: 15px;
+
+}
+.footer-frindLink a,
+.footer-frindLink span{
+    color: #4E4E4E;
+}
+
+.footer-tutelage {
+    position: absolute;
+    top: 25px;
+    right: 94px;
+    width: 143px;
+    height: 28px;
+    line-height: 28px;
+    background: #610000;
+    text-indent: 3px;
+}
+
+.footer-explain {
+    padding-top: 20px;
+    text-align: center;
+}
+.footer-explain span{
+    color: #000;
+}
+
+/*footer部分---E*/
+/*slider部分---B*/
+.rslider{
+    width: 158px;
+    height: 433px;
+    position: absolute;
+    top: 600px;
+    right: 10px;
+}
+.closeslider{
+    width: 24px;
+    height: 12px;
+    color: #FF5400;
+    display: inline-block;
+    line-height: 12px;
+    position: absolute;
+    top: -17px;
+    left: 0;
+    cursor: pointer;
+}
+.menu{
+    width: 158px;
+    height: 416px;
+}
+.menu .picslider{
+    height: 104px;
+    background: url("../images/newGuide/silder.jpg") no-repeat left top;
+}
+.menu .rcontent{
+    height: 312px;
+    background-color: #414344;
+}
+.menu .rcontent h3{
+    height: 60px;
+    color: #AEAEAE;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    background: url("../images/newGuide/silderDL.png") no-repeat 10px bottom;
+}
+.rcontent .rlist ul{
+    width: 158px;
+    height: 252px;
+}
+.rcontent .rlist li{
+    width: 98px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 30px;
+    border-bottom: 1px dotted #6B6B6B;
+}
+.rcontent .rlist li a{
+    width: 96px;
+    height: 12px;
+    color: #aeaeae;
+    text-align: center;
+    cursor: pointer;
+}
+.rcontent .rlist li a.current{
+    color: #fff;
+}
+.rslider .top{
+    color: #FF5400;
+    cursor: pointer;
+    margin-left: 128px;
+    background-color: #fff;
+    text-decoration: underline;
+}
+/*slider部分---E*/

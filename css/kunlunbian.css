@@ -1,0 +1,782 @@
+.container {
+
+    width: 100%;
+    min-width: 1200px;
+    min-height: 2010px;
+    height: auto;
+    background: url(../images/kunlunbian/bg.jpg) no-repeat center top;
+    font-family: "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei";
+}
+
+.container-top {
+    width: 100%;
+    position: relative;
+    height: 638px;
+}
+
+.container-top .logo {
+    margin-left: 45px;
+    margin-top: -30px;
+    float: left;
+}
+
+.container-top .logo a {
+    display: block;
+    width: 240px;
+    height: 180px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -499px 0;
+    text-indent: -2000px;
+}
+
+.container-top .nav {
+    float: right;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.container-top .nav a {
+    float: left;
+    display: block;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -671px -415px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.container-top .nav a:hover {
+    background-position: -650px -360px;
+}
+
+.container-top .container-subname {
+    width: 70px;
+    height: 81px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -650px -215px;
+    position: absolute;
+    right: 118px;
+    top: 212px;
+}
+
+.container-top .container-sub-topic {
+    width: 580px;
+    height: 70px;
+    background: url(../images/kunlunbian/subTopic.png) no-repeat;
+    position: absolute;
+    left: 340px;
+    top: 490px;
+}
+
+.container-top .container-enter {
+    display: block;
+    width: 200px;
+    height: 52px;
+    cursor: pointer;
+    background: url(../images/kunlunbian/enterGw_btn.jpg) no-repeat;
+    position: absolute;
+    right: 160px;
+    top: 500px;
+}
+
+.container-top .container-enter:hover {
+    background: url(../images/kunlunbian/enterGw_btn_hover.jpg) no-repeat;
+}
+
+.fast-register {
+    width: 1200px;
+    height: 340px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.fast-register ul {
+
+}
+
+.fast-register li {
+    float: left;
+    width: 300px;
+    height: 314px;
+    padding-top: 26px;
+    position: relative;
+}
+
+.fast-register h2 {
+    width: 100%;
+    min-height: 51px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #47629d;
+    text-align: left;
+    line-height: 51px;
+    position: relative;
+    z-index: 20;
+}
+
+.fast-register h2 span {
+    padding-left: 57px;
+    margin-left: 34px;
+    position: relative;
+}
+
+.fast-register h2 span i {
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -26px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -437px -374px;
+}
+
+.fast-register .fr-title-icon2 {
+    background-position: -437px -323px;
+}
+
+.fast-register .fr-title-icon3 {
+    background-position: -437px -272px;
+}
+
+.fast-register .fr-title-icon4 {
+    background-position: -317px -433px;
+}
+
+/*第4个title特殊处理*/
+.fast-register h2.four {
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.fast-register h2.four span {
+    padding-left: 0px;
+    margin-left: 46px;
+    float: left;
+}
+
+.fast-register h2.two span {
+
+    margin-left: 8px;
+
+}
+.fast-register h2.four i {
+    left: -57px;
+}
+
+.fast-register .fr-content {
+
+    height: 180px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/*快速注册表单开始*/
+.fast-register .fr-content .fr-inputbox {
+    width: 238px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #4B66A4;
+    margin: 20px auto 0px;
+}
+
+.fast-register .fr-content .fr-inputbox i {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 8px;
+    font-size: 20px;
+    color: #47629D;
+}
+
+.fast-register .fr-content .fr-inputbox input {
+    background-color: transparent;
+    width: 205px;
+    height: 38px;
+    float: right;
+    padding-left: 5px;
+}
+
+.fast-register .fr-content .fr-agree {
+    color: #929292;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.fast-register .fr-content .fr-agree a {
+    color: #929292;
+}
+
+.fast-register .fr-content .fr-agree a:hover {
+    color: #929292;
+}
+
+.fast-register .fr-btn {
+    text-align: center;
+    height: 72px;
+    width: 242px;
+    font-size: 20px;
+    line-height: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -121px;
+    color: #fff;
+    background: url(../images/kunlunbian/btnbg.png) no-repeat top center;
+    cursor: pointer;
+
+}
+
+.fast-register .fr-btn:hover {
+    background: url(../images/kunlunbian/btnbg_hover.png) no-repeat top center;
+}
+
+/*快速注册表单结束*/
+
+/*免费领取礼物开始*/
+.fr-content .fr-imglist {
+    width: 205px;
+    height: 154px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.fr-content .fr-imglist .fr-img-box {
+    width: 820px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.fr-content .fr-imglist .fr-img-box li {
+    width: 205px;
+    height: 136px;
+    float: left;
+    padding: 0;
+
+}
+
+.fr-content .fr-imglist .fr-img-btn {
+    width: 102px;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -51px;
+}
+
+.fr-content .fr-imglist .fr-img-btn li {
+    width: 24px;
+    height: 5px;
+    margin: 0 5px;
+    background-color: #CCC;
+    padding: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.fr-content .fr-imglist .fr-img-btn li.current {
+    background-color: #47629D;
+}
+
+/*免费领取礼物结束*/
+
+/*游戏下载部分开始*/
+.fr-content .fr-download {
+    width: 210px;
+    height: 238px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -22px 0;
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    margin-left: -100px;
+}
+
+/*游戏下载部分结束*/
+
+/*查看更多部分开始*/
+.fr-content .fr-more {
+    width: 210px;
+    height: 238px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -258px 0;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+/*查看更多部分结束*/
+
+/*新剧情 新武器 新副本部分开始*/
+.newblock {
+
+    height: 300px;
+    margin-top: 30px;
+
+}
+
+.newblock .new-left {
+    float: left;
+    width: 170px;
+    height: 300px;
+    background-color: #EBEBEF;
+
+}
+
+.newblock .new-left li {
+    text-align: center;
+    width: 170px;
+    height: 75px;
+    line-height: 75px;
+    color: #838383;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.newblock .new-left li.current {
+    color: #AB965C;
+    font-size: 20px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -500px -415px;
+
+}
+
+.newblock .new-right {
+    float: right;
+    width: 1030px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.newblock .new-right ul.new-img-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4120px;
+    height: 300px;
+}
+
+.newblock .new-right ul.new-img-box li {
+    float: left;
+    width: 1030px;
+    height: 300px;
+}
+
+.newblock .new-right ul.new-img-btn {
+
+    width: 180px;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -90px;
+
+}
+
+.newblock .new-right ul.new-img-btn li {
+    float: left;
+    width: 50px;
+    height: 6px;
+    margin: 0 5px;
+    background-color: #fff;
+}
+
+.newblock .new-right ul.new-img-btn li.current {
+    background-color: #47629D;
+}
+
+/*新剧情 新武器 新副本部分结束*/
+
+/*公测活动部分开始*/
+.huodong {
+    width: 1200px;
+    height: 230px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.huodong li {
+    float: left;
+    width: 400px;
+    height: 230px;
+    position: relative;
+}
+
+.huodong li .hd-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 230px;
+}
+
+.huodong li .hd1 {
+    float: left;
+    width: 180px;
+    height: 230px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat 0 -267px;
+}
+
+.huodong li .hd2 {
+
+    width: 125px;
+    height: 190px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -310px -240px;
+}
+
+.huodong li .hd3 {
+    width: 130px;
+    height: 205px;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -495px -200px;
+}
+
+.huodong li .hd-split {
+    width: 17px;
+    height: 230px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../images/kunlunbian/index_z_kl.png) no-repeat -483px 0px;
+    /*z-index: 20;*/
+}
+
+.huodong .hd-right {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 260px;
+    height: 230px;
+}
+
+.huodong .hd-right .hd-txt {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    width: 270px;
+    height: 130px;
+    /*background-color: red;*/
+
+}
+
+.huodong .hd-right .hd-txt h3 {
+    height: 41px;
+    font-size: 24px;
+    color: #47629d;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 5px;
+}
+
+.huodong .hd-right .hd-txt p {
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+}
+
+.huodong .hd-right a {
+
+    position: absolute;
+    left: 10px;
+    bottom: 35px;
+    border: 1px solid #AB965C;
+    font-size: 14px;
+    color: #AB965C;
+    text-align: center;
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+
+}
+
+.huodong .hd-right a:hover {
+    color: #fff;
+    background-color: #AB965C;
+}
+
+/*公测活动部分结束*/
+
+/*11大门派开始*/
+.menpai {
+    width: 1200px;
+    height: 340px;
+    margin-top: 44px;
+    background-color: rgba(255, 255, 255, .4);
+    position: relative;
+}
+
+.menpai h3 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #47629d;
+    line-height: 50px;
+    position: absolute;
+    top: 56px;
+    left: 46px;
+    z-index: 3;
+}
+
+.menpai .menpai-namelist {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    width: 550px;
+    height: 80px;
+    z-index: 2;
+}
+
+.menpai .menpai-namelist a {
+    float: left;
+    display: block;
+    width: 38px;
+    height: 78px;
+    line-height: 78px;
+    margin: 0 5px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.menpai .menpai-namelist a.current {
+    border: 1px solid #685C3C;
+}
+
+.menpai .menpai-imglist {
+    position: relative;
+    width: 1200px;
+    height: 340px;
+}
+
+.menpai .menpai-imglist a {
+    width: 1200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: default;
+}
+
+.menpai .menpai-imglist a.mpbox1 {
+    height: 340px;
+}
+
+.menpai .menpai-imglist a.mpbox2 {
+    height: 372px;
+}
+
+.menpai .menpai-imglist a.mpbox3 {
+    height: 370px;
+}
+
+.menpai .menpai-imglist a.mpbox4 {
+    height: 368px;
+}
+
+.menpai .menpai-imglist a.mpbox5 {
+    height: 340px;
+}
+
+.menpai .menpai-imglist a.mpbox6 {
+    height: 361px;
+}
+
+.menpai .menpai-imglist a.mpbox7 {
+    height: 360px;
+}
+
+.menpai .menpai-imglist a.mpbox8 {
+    height: 377px;
+}
+
+.menpai .menpai-imglist a.mpbox9 {
+    height: 365px;
+}
+
+.menpai .menpai-imglist a.mpbox10 {
+    height: 368px;
+}
+
+.menpai .menpai-imglist a.mpbox11 {
+    height: 366px;
+}
+
+/*11大门派结束*/
+
+/*分享部分开始*/
+.hot-share {
+    width:100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, .4);
+}
+.hot-share .share-con {
+    width: 460px;
+    height: 40px;
+    line-height:40px;
+    margin: 0 auto;
+    position: relative;
+}
+.hot-share span, .hot-share a {
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+}
+
+.hot-share span {
+    float: left;
+}
+
+/*分享列表*/
+.hot-share-single ul {
+    float: left;
+}
+
+.hot-share-single li {
+    float: left;
+    padding-left: 10px;
+}
+
+.hot-share-single li a::before {
+    font-size: 18px;
+    padding-right: 3px;
+    -webkit-transition: color .3s linear;
+    -moz-transition: color .3s linear;
+    -ms-transition: color .3s linear;
+    -o-transition: color .3s linear;
+    transition: color .3s linear;
+}
+
+.hot-share-single li a:hover, .hot-share-single li a:hover::before {
+    color: #4C7B7A;
+}
+
+/*更多部分*/
+.hot-share-more {
+    position: absolute;
+    top: 23px;
+    right: -110px;
+    width: 206px;
+    height: 90px;
+    border: 1px solid #bababa;
+    background-color: #fff;
+}
+
+.hot-share-more li {
+    float: left;
+    padding: 2px;
+}
+
+.hot-share-more li a {
+    display: block;
+    width: 97px;
+    height: 24px;
+    line-height:24px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    font-family: "simSun";
+    text-indent: 30px;
+    background: url("../images/icon_v5.png") no-repeat;
+}
+
+.hot-share-more li a.rr {
+    background-position: 5px -174px;
+}
+.hot-share-more li a.tx {
+    background-position: 5px -48px;
+}
+
+.hot-share-more li a.qq {
+    background-position: 5px -474px;
+}
+
+.hot-share-more li a.db {
+    background-position: 5px -248px;
+}
+
+.hot-share-more li a.bd {
+    background-position: 5px -298px;
+}
+
+.hot-share-more li a:hover {
+    border: 1px solid #dcdbdc;
+    background-color: #eee;
+}
+
+/*分享部分结束*/
+/*昆仑变部分结束 孙美红 2017-1-8*/
+
+/*页脚   by卢盼 2017.1.8*/
+.footerWrap {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 106px;
+    background: #000;
+}
+
+.footerWrap .footer {
+    position: relative;
+    width: 832px;
+    margin: 0 auto;
+}
+
+.footer span, .footer a {
+    color: #fff;
+    font-size: 12px;
+    font-family: "simSun";
+}
+
+.footer span {
+    vertical-align: middle;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    display: inline-block;
+    height: 31px;
+}
+
+.footer-logo .netease {
+    display: inline-block;
+    width: 118px;
+    height: 31px;
+    background: url("../images/netease.png");
+}
+
+.footer-logo .nie {
+    display: inline-block;
+    width: 134px;
+    height: 31px;
+    background: url("../images/nie.png");
+}
+
+.footer-logo .wen {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: url("../images/wen.png");
+    margin-left: 10px;
+}
+
+.footer-frindLink {
+    display: inline-block;
+    height: 31px;
+    padding-left: 15px;
+}
+
+.footer-tutelage {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    width: 143px;
+    height: 28px;
+    line-height: 28px;
+    background: #610000;
+    text-indent: 3px;
+}
+
+.footer-explain {
+    padding-top: 30px;
+}

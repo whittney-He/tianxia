@@ -1,0 +1,501 @@
+
+    .year-header {
+        height:483px;
+        background: url("../images/year/header_bg.jpg") no-repeat center top ;
+        /*min-width: 1349px;*/
+        /*max-width: 3500px;*/
+        /*overflow: hidden;*/
+        margin: 0 auto;
+        position: relative;
+    }
+    /*logo部分--缺图*/
+    .logo-div {
+        width: 200px;
+        height: 179px;
+        position: absolute;
+        top: 10px;
+        text-indent: -99999px;
+        outline: 0;
+        border: 0;
+        left: 50%;
+        margin-left: -520px;
+        /*background: url("../images/year/") no-repeat;*/
+        cursor: pointer;
+    }
+    /*header部分的版心块*/
+    .header-w {
+        width: 1233px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .year-header .headerNav i{
+        color: #EF7B1B;
+        margin-right: 10px;
+    }
+    .year-header .headerNav li {
+        float: left;
+        margin-right: 26px;
+    }
+    .year-header .headerNav {
+        /*float: right;*/
+        position: absolute;
+        top:25px;
+        right: -14px;
+    }
+     .year-share {
+         background: url("../images/year/share_bg.png") no-repeat;
+         width: 210px;
+         height: 28px;
+         display: block;
+         position: absolute;
+         left: 50%;
+         top: 65px;
+         margin-left: 365px;
+     }
+     .share-to span{
+         color: #fff;
+         font-family: simSun,Arial;
+         line-height: 28px;
+         padding-left: 9px;
+         float: left;
+     }
+     .share-to ul{
+         float: left;
+         padding-top: 3px;
+     }
+    .share-to li{
+        float: left;
+    }
+    .share-to .iconfont {
+        width: 23px;
+        height:23px;
+        margin: 0 0 0 1px;
+        color: #eee;
+        font-size: 24px;
+    }
+    .share-to .iconfont:hover{
+        color: #fff;
+    }
+    .share-to .icon-icontianjia01{
+
+        width: 23px;
+        height:23px;
+        margin: 0 0 0 1px;
+        margin-left: 7px;
+        color: #eee;
+        font-size: 22px;
+    }
+    .share-more {
+        width: 22px;
+        position: absolute;
+        right: 137px;
+        top: 20px;
+        display: inline-block;
+    }
+    .share-more .share-more-ul{
+        position: absolute!important;
+        z-index: 9;
+        width: 198px;
+        padding: 2px;
+        border: 1px #ff5400 solid;
+        background: #fff;
+        overflow: hidden;
+        display: none;
+
+    }
+    .share-more li{
+        width: 97px;
+        /*line-height: 22px;
+        height: 22px;*/
+        border: 1px solid transparent;
+    }
+    .share-more li:hover {
+        border: 1px solid #ff5400;
+        /*width: 97px;
+        height: 20px;
+        line-height: 20px;*/
+        background-color: #FBCEB7;
+    }
+
+    .share-more li a{
+        padding: 0 20px;
+    }
+    .share-more li a:hover{
+        color: #fff;
+    }
+
+
+    /*公共年份设置*/
+    .all-year h2{
+        font-size: 36px;
+        line-height: 38px;
+        font-weight: 700;
+        text-align: center;
+        color: #ff5400;
+        padding-top: 31px;
+    }
+    .all-year h2 span {
+        position: relative;
+        top: -4px;
+        padding-left: 3px
+    }
+
+    .pro {
+        width: 585px;
+        height: 560px;
+        opacity: 0;
+        transform: scale(0.3);
+        transition: all .8s linear;
+    }
+    /*.pro-sigle {*/
+        /*opacity: 0;*/
+        /*transform: scale(0.3);*/
+        /*transition: all .8s linear;*/
+    /*}*/
+    .pro2{
+        opacity: 1;
+        transform: scale(1);
+    }
+    .pro-top{
+        width: 585px;
+    }
+    .pro-left{
+        float: left;
+    }
+    .pro-right{
+        float: right;
+    }
+    .all-year {
+        min-width: 1233px;
+        max-width: 1919px;
+        overflow: hidden;
+        /*height: 823px;*/
+        /*background: url("../images/year/bg2016.jpg") no-repeat top center;*/
+    }
+    .all-year .w {
+        position: relative;
+        width: 1200px;
+        margin: 138px auto 0;
+
+    }
+    /*公共年份设置结束*/
+/*2016年*/
+    .year-sixteen {
+        height:823px;
+        background: url("../images/year/bg2016.jpg") no-repeat top center;
+    }
+    .year-left-2016{
+       /*display: none;*/
+        /*opacity: 0;*/
+        /*height: 0;*/
+        /*width: 0;*/
+        position: absolute;
+
+    }
+    .year-right-2016{
+        /*display: none;*/
+
+    }
+    /*公共上面的部分*/
+    .pro-top {
+        height:127px;
+    }
+    .pro-top .title {
+        float: left;
+    }
+    .pro-top .title .big-title{
+        font-size: 45px;
+        font-weight: 700;
+        color: #f23d05;
+        height: 46px;
+        line-height: 46px;
+    }
+    .pro-top .title .line{
+        display: block;
+        height: 2px;
+        width: 206px;
+        background: #cbbca9;
+        margin: 13px 0 16px;
+    }
+    .pro-top .title .sub-title {
+        font-size: 18px;
+        color: #da3e28;
+    }
+
+    /*ul部分*/
+  .pro-top .pro-ul {
+      float: left;
+      width: 310px;
+      margin-left: 20px;
+
+  }
+
+    .pro-top .pro-ul li {
+        float: left;
+        width: 155px;
+        color: #565656;
+        font-family: SimSun;
+        line-height: 24px;
+    }
+    .pro-top .short li{
+          width: 100px;
+      }
+    .pro-top .pro-ul li i{
+        margin-right: 6px;
+        color: #ff6c00;
+        font-family: "microsoft yahei";
+    }
+   .pro img {
+       display: block;
+       width: 552px;
+       height: 323px;
+       margin-bottom: 20px;
+   }
+     .pro-btn-a {
+        color: #fff;
+        display: block;
+        width: 180px;
+        height: 65px;
+        line-height: 60px;
+        font-size: 18px;
+        text-indent: 34px;
+        margin: 0 auto;
+        background: url("../images/year/pro-btn.png") no-repeat ;
+        background-position: 0px 0px;
+    }
+    .pro .pro-btn-a:hover{
+        background-position: 0px -65px;
+        color: #fff;
+
+
+    }
+
+        /*2015年*/
+    .year-Fifteen {
+        height:1360px;
+        background: url("../images/year/bg2015.jpg") no-repeat top center;
+    }
+    /*特殊---下面有图片*/
+    .pro-sigle {
+        clear: both;
+        padding-top: 90px;
+        height:323px;
+    }
+    .pro-sigle img{
+        float: left;
+    }
+    .pro-sigle .pro-top {
+        float: left;
+        margin-left: 40px;
+    }
+    .pro-sigle .pro-top .pro-btn-a {
+        margin: 35px 0 0;
+    }
+    .pro-sigle .pro-top .pro-btn-a:hover{
+        background-position: 0px -65px;
+        color: #fff;
+
+    }
+        /*2014年*/
+    .year-forteen {
+        height:847px;
+        background: url("../images/year/bg2014.jpg") no-repeat top center;
+    }
+    /*2013年*/
+    .year-thirteen {
+        height:774px;
+        background: url("../images/year/bg2013.jpg") no-repeat top center;
+    }
+    /*2012年*/
+    .year-twelve {
+        height:774px;
+        background: url("../images/year/bg2012.jpg") no-repeat top center;
+    }
+    /*2011年*/
+    .year-eleventh {
+        height:763px;
+        background: url("../images/year/bg2011.jpg") no-repeat top center;
+    }
+    /*2010*/
+    .year-ten {
+        height:697px;
+        background: url("../images/year/bg2010.jpg") no-repeat top center;
+    }
+    .spe {
+        margin: -98px 517px;
+        float: left;
+    }
+    /*2009*/
+    .year-nine {
+        height:1209px;
+        background: url("../images/year/bg2009.jpg") no-repeat top center;
+    }
+    /*2008*/
+    .year-eight {
+        height:1119px;
+        background: url("../images/year/bg2008.jpg") no-repeat top center;
+    }
+
+
+
+
+    /*footer部分*/
+    .login-footer {
+        /*overflow: hidden;*/
+        height:100px;
+        /*background-color: #000000;*/
+        /*position: absolute;*/
+        /*bottom: 80px;*/
+        margin-top:140px;
+    }
+    .login-footer .footer-net-a{
+        display: inline-block;
+        margin-left: 243px;
+        /*margin-top: 33px;*/
+    }
+    .login-footer li {
+        float: left;
+        margin-top: 33px;
+    }
+    .login-footer li.split {
+        width: 2px;
+        height: 31px;
+        background-color: #E60013;
+        margin: 34px 15px  0 15px;
+    }
+    .login-footer .footer-game-a{
+        display: inline-block;
+    }
+    .login-footer .footer-wen-a {
+        margin-left: 15px;
+    }
+    .login-footer .more-a {
+        margin-top: 27px;
+        margin-left: 20px;
+        display: inline-block;
+    }
+    .login-footer .more-a a {
+        color: #ea4438;
+        font-size: 12px;
+        font-family: simSun;
+        margin: 0 4px;
+    }
+    .login-footer .more-a span {
+        font-size: 16px;
+        color: #ea4438;
+    }
+    .login-footer .copyright{
+        color: #ea4438;
+        font-family: simSun;
+        display: inline-block;
+        margin-left: 24px;
+    }
+    .login-footer .parent {
+        color: #fff;
+        display: inline-block;
+        width: 136px;
+        height: 28px;
+        text-align: center;
+        background-color: #610000;
+        margin-left: 12px;
+        font-family: simsun;
+    }
+    .login-footer .last-p {
+        display: inline-block;
+        margin-left: 485px;
+        color: #ea4438;
+        font-family: simSun;
+
+    }
+
+
+    .sidebar {
+        /*width: 50px;*/
+        /*height:100px;*/
+        position: fixed;
+        z-index: 1;
+        top: 100px;
+        right: 30px;
+    }
+    .sidebar li{
+        padding: 10px 5px;
+        border-right: 9px solid #6f1a07;
+        margin-bottom: 2px;
+
+    }
+    .sidebar li a{
+        font-size: 22px;
+        color:#6f1a07;
+        display: block;
+        width: 105px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .sidebar li:hover,.sidebar li.current{
+        border-color: #f23d05;
+    }
+    .sidebar li a:hover{
+        color: #fff;
+    }
+    .sidebar li:hover a ,.sidebar li.current a{
+        color: #fff;
+        background-color: #f23d05;
+    }
+    .sidebar .backTop {
+        position: absolute;
+        bottom: -60px;
+        right: -23px;
+    }
+    .backTop a{
+        display: block;
+        width: 29px;
+        height: 29px;
+        margin: 0 auto;
+        background: url("../images/year/backtopBtn.jpg") no-repeat 0 0;
+    }
+    .backTop a:hover{
+        background-position: 0 -29px;
+    }
+
+
+/*.year-left-2010{*/
+
+    /*position: absolute;*/
+    /*right: -1000px;*/
+    /*top:600px;*/
+/*}*/
+
+
+    .pro-sp1 {
+        position: absolute;
+        right: -1000px;
+        top:600px;
+        /*opacity: 0;*/
+
+    }
+    .pro-sp2 {
+        position: absolute;
+        right: -1000px;
+        top:500px;
+    }
+    .img-mask {
+        position: relative;
+    }
+
+
+    .mask {
+        position: absolute;
+        width: 552px;
+        /*height: 80px;*/
+        height: 0px;
+        bottom: 0;
+        left: 0;
+        /*opacity: 0.3;*/
+        opacity: 0;
+        background-color: black;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 50px;
+        font-family: "全新硬笔行书简";
+    }

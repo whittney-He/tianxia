@@ -1,0 +1,243 @@
+/*顶部版心*/
+.top {
+    height: 55px;
+    background-color: #FBFBFB;
+}
+
+.top .top-w {
+    height: 55px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*网易游戏logo*/
+.top-left {
+    float: left;
+    height: 55px;
+    width: 133px;
+}
+
+.top-left .top-logo {
+    height: 55px;
+    display: block;
+    background: url("../images/logo_top.png") no-repeat;
+    width: 133px;
+    text-indent: -2000px;
+    margin-top: 5px;
+}
+
+/*logo右侧广告*/
+.top-w .top-middle {
+    float: left;
+    width: 420px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 2;
+}
+
+.top-w .top-middle .top-middle-bottom {
+    width: 250px;
+    display: none;
+}
+
+/*顶部右侧ul*/
+.top-w .top-right {
+    float: right;
+}
+
+.top-w .top-right ul {
+    float: left;
+}
+
+.top-w .top-right li {
+    float: left;
+    height: 55px;
+}
+
+/*网易游戏全目录部分*/
+.top-w .top-right div.getgift {
+    height: 55px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.top-w .top-right div#lunbo {
+    position: relative;
+}
+
+.top-w .top-right li a, .top-w .top-right .catalogue span,
+.top-w .top-right .getgift a {
+    padding: 15px;
+    display: block;
+    color: #333;
+    transition: background ease-in-out .33s;
+}
+
+.top-w .top-right li a:hover,
+.top-w .top-right .catalogue span:hover,
+.top-w .top-right .getgift a:hover,
+div.catalogue-box:hover {
+    border-bottom: 3px solid #BC2E2E;
+    color: #bc2e2e;
+    background: url("../images/a_bg.jpg") repeat-x;
+}
+
+/*下拉盒子*/
+/*<!--游戏全目录-->*/
+.top-w .top-right .catalogue {
+    float: left;
+    width: 120px;
+    height: 55px;
+    position: relative;
+}
+
+/*三角*/
+.catalogue i.cataloguei {
+    width: 9px;
+    height: 5px;
+    display: block;
+    background: url("../images/spilit.png") no-repeat -103px -100px;
+    position: absolute;
+    top: 24px;
+    right: 6px;
+}
+
+.top-w .top-right .catalogue-box {
+    width: 1000px;
+    background-color: #FCFDFE;
+    opacity: 0.9;
+    margin-left: -802px;
+    padding-bottom: 10px;
+    height: 400px;
+    display: none;
+    position: absolute;
+    z-index: 20;
+}
+
+/*客户游戏*/
+.catalogue .pcgame {
+    width: 248px;
+    border-right: 1px solid #E2E2E2;
+    float: left;
+    height: 440px;
+}
+
+/*手机游戏*/
+.phonegame {
+    position: relative;
+}
+
+.phonegame .more-game {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    width: 30px;
+    height: 102px;
+    margin-top: -51px;
+}
+
+.phonegame .more-game a {
+    display: block;
+    width: 23px;
+    height: 123px;
+    background-color: #BA3131;
+    line-height: 20px;
+    color: #F6EEEE;
+    text-align: center;
+    padding-left: 2px;
+}
+
+.phonegame .more-game a:hover {
+    color: #F6EEEE;
+}
+
+.catalogue .pcgame .pcgame-top,
+.phonegame .phonegame-top,
+.assistgame .assistgame-top {
+    border-top: 1px solid #E0E0E0;
+    height: 39px;
+    background-color: #EBEBEC;
+    line-height: 39px;
+    color: #bc2e2e;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.pcgame .pcgame-bottom {
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.catalogue p {
+    color: #626262;
+    font-weight: 700;
+}
+
+.aone {
+    font-size: 12px;
+    width: 113px;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.catalogue a:hover {
+    color: #bc2e2e;
+}
+
+/*手机游戏*/
+.catalogue .phonegame {
+    width: 605px;
+    border-right: 1px solid #E2E2E2;
+    height: 440px;
+    float: left;
+}
+
+.catalogue .phonegame .phonegame-hot {
+    width: 140px;
+    height: 380px;
+    padding-left: 33px;
+    padding-top: 20px;
+    float: left;
+}
+
+.catalogue .phonegame .phonegame-newone {
+    height: 380px;
+    padding-left: 20px;
+    width: 131px;
+    float: left;
+    padding-top: 20px;
+}
+
+.catalogue .phonegame .phonegame-newtwo {
+    height: 358px;
+    padding-top: 42px;
+    float: left;
+    width: 113px;
+}
+
+.catalogue .phonegame .phonegame-newthree {
+    width: 130px;
+    height: 358px;
+    float: left;
+    padding-top: 42px;
+}
+
+/*游戏辅助*/
+.catalogue .assistgame {
+    width: 145px;
+    float: right;
+}
+
+.top-w .top-right .getgift {
+    float: left;
+}
+
+/*热门游戏*/
+.assistgame .assistgame-bottom {
+    width: 125px;
+    height: 395px;
+    padding-left: 20px;
+    padding-top: 15px;
+}

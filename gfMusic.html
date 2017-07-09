@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>《天下3》国风音乐赏析－《天下3》官方网站－国风幻想 史诗世界</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/gfMusic.css">
+    <link rel="stylesheet" href="css/topNav.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/topNav.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+
+    <!--jQuery代码-->
+    <script>
+        $(function () {
+            //改变引入的头部文件的图片的路径
+
+            var divObj = $("#top_middle_zn").find("div");
+            $(divObj[0]).find("img").attr("src","images/gfMusic/gfMusic-nav-small.jpg");
+            $(".top-middle-bottom").find("img").attr("src","images/gfMusic/gfMusic-nav-big.jpg");
+
+
+            //实现tab切换
+            var banImg =$(".screen>ul>li");
+            //获取ol
+            var olObj =$(".screen>ol");
+            for(var i=0;i<banImg.length;i++){
+                //创建ol中的li，放入ol中
+                var lis=$("<li></li>");
+                lis.appendTo(olObj);
+                //在ol的li中再创建一个i标签
+                var iObj = $("<i></i>");
+                iObj.appendTo(lis);
+                $("ol>li:eq(0)").addClass("gfCurrent");
+                $("ol>li:eq(0)").children("i").addClass("gfCurrent");
+                //点击小图标，图片轮播
+                $(lis).click(function () {
+                    var index =$(this).index();
+                    //让小图标随之变化
+                    $(this).addClass("gfCurrent");
+                    $(this).children("i").addClass("gfCurrent");
+                    $(this).siblings("li").removeClass("gfCurrent");
+                    $(this).siblings("li").children("i").removeClass("gfCurrent");
+//                    ulObj.animate({"left":-index*imgWidth+514+"px"});
+                    $(".screen>ul>li:eq("+index+")").addClass("select");
+                    $(".screen>ul>li:eq("+index+")").siblings(".screen>ul>li").removeClass("select");
+                });
+            }
+
+
+
+
+            //名曲推荐部分
+            //左右焦点，鼠标进入透明度发生变化
+            //鼠标进入
+            $("#famous-left").mouseover(function () {
+               $(this).css("opacity",1);
+            }).mouseout(function () {
+               $(this).css("opacity",0.5);
+            });
+            $("#famous-right").mouseover(function () {
+                $(this).css("opacity",1);
+            }).mouseout(function () {
+                $(this).css("opacity",0.5);
+            });
+
+
+            //轮播图
+            var liObj = $(".famous-box>ul>li");
+            imgWidth= parseInt(liObj.css("width"));
+            //点击左焦点
+            var pic=0;
+            $("#famous-left").click(function () {
+                if(pic<1){
+                    pic++;
+                    liObj.animate({"left":-pic*imgWidth-30+"px"});
+                }
+
+            });
+            //点击右边焦点
+            $("#famous-right").click(function () {
+                if(pic>0){
+                    pic--;
+                    liObj.animate({"left":-pic*imgWidth+"px"});
+                }
+
+            });
+
+
+
+
+
+        });
+
+
+
+    </script>
+
+</head>
+<body>
+
+    <!--</div>-->
+        <script src="js/head.js"></script>
+        <!--nav部分结束-->
+
+        <!--banner部分-->
+    <div class="gfMusic-banner">
+            <!--轮播图部分开始-->
+            <div class="screen">
+                <div class="top-bg"></div>
+                <ul>
+                    <li class="select">
+                        <img src="images/gfMusic/gfMusic-banner1.jpg" />
+                    </li>
+                    <li><img src="images/gfMusic/gfMusic-banner2.jpg"/></li>
+                </ul>
+                <ol>
+                </ol>
+            </div>
+
+
+
+          <div class="main">
+              <!--游戏原声开始-->
+              <div class="voice">
+                  <div class="part">
+                      <!--图片部分-->
+                      <a href="javascript:void(0)" title="《游戏原声》" class="circleImg">
+                          <span>《游戏原声》</span>
+                      </a>
+                      <img src="images/gfMusic/gfMusic-cover1.png" alt="">
+                      <!--文字部分-->
+                      <p>天下3国风游戏音乐欣赏，找回陪伴我们多年的旋律</p>
+                  </div>
+                  <div class="part">
+                      <!--图片部分-->
+                      <a href="javascript:void(0)" title="《逐焰南海》" class="circleImg">
+                          <span>《逐焰南海》</span>
+                      </a>
+                      <img src="images/gfMusic/gfMusic-cover2.png" alt="">
+                      <!--文字部分-->
+                      <p>大荒极南之地，为南海伽蓝墟。<br>
+
+                          相传，南海上只有荒芜大陆，因上古神祗伽蓝神孤身远赴南海……
+                      </p>
+                  </div>
+                  <div class="part">
+                      <!--图片部分-->
+                      <a href="javascript:void(0)" title="《北溟幻世录》" class="circleImg">
+                          <span>《北溟幻世录》</span>
+                      </a>
+                      <img src="images/gfMusic/gfMusic-cover3.png" alt="">
+                      <!--文字部分-->
+                      <p>以音乐之名，向大家呈现恢弘壮丽的北溟上古奇观，诉说那些让人践踏生死却也困于生死的魔族将侯。</p>
+                  </div>
+              </div>
+              <!--游戏原声结束-->
+
+
+              <!--名曲推荐开始-->
+              <div class="famous">
+                  <a href="javascript:void(0)" id="famous-left" class="left"></a>
+
+                  <div class="famous-box">
+                      <ul>
+                          <li>
+                              <a href="javascript:void(0)" class="smallbg"></a>
+                              <img src="images/gfMusic/gfMusic-cover4.jpg" alt="" class="famous-img">
+                              <div class="zan"><a href="javascript:void(0)" style="color: #f88d2e;">1655</a></div>
+                              <a href="javascript:void(0)" title="《莫问今朝》" style="color: #f88d2e;">《莫问今朝》</a>
+                              <p>演唱：音频怪物</p>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)" class="smallbg"></a>
+                              <img src="images/gfMusic/gfMusic-cover5.jpg" alt="" class="famous-img" >
+                              <div class="zan"><a href="javascript:void(0)" style="color: #f88d2e;">644</a></div>
+                              <a href="javascript:void(0)" title="《再战今朝》" style="color: #f88d2e;">《再战今朝》</a>
+                              <p>演唱：群星</p>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)" class="smallbg"></a>
+                              <img src="images/gfMusic/gfMusic-cover6.jpg" alt="" class="famous-img">
+                              <div class="zan"><a href="javascript:void(0)" style="color: #f88d2e;">429</a></div>
+                              <a href="javascript:void(0)" title="《御歌行》" style="color: #f88d2e;">《御歌行》</a>
+                              <p>演唱：Aki阿杰</p>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)" class="smallbg"></a>
+                              <img src="images/gfMusic/gfMusic-cover7.jpg" alt="" class="famous-img">
+                              <div class="zan"><a href="javascript:void(0)" style="color: #f88d2e;">642</a></div>
+                              <a href="javascript:void(0)" title="《北溟-孤光》" style="color: #f88d2e;">《北溟-孤光》</a>
+                              <p>演唱：群星</p>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)" class="smallbg"></a>
+                              <img src="images/gfMusic/gfMusic-cover8.jpg" alt="" class="famous-img">
+                              <div class="zan"><a href="javascript:void(0)" style="color: #f88d2e;">644</a></div>
+                              <a href="javascript:void(0)" title="《长命女》" style="color: #f88d2e;">《长命女》</a>
+                              <p>演唱：群星</p>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)" class="smallbg"></a>
+                              <img src="images/gfMusic/gfMusic-cover9.jpg" alt="" class="famous-img">
+                              <div class="zan"><a href="javascript:void(0)" style="color: #f88d2e;">212</a></div>
+                              <a href="javascript:void(0)" title="《天地离歌》" style="color: #f88d2e;">《天地离歌》</a>
+                              <p>演唱：群星</p>
+                          </li>
+
+                      </ul>
+                  </div>
+
+                  <a href="javascript:void(0)" id="famous-right" class="right"></a>
+
+
+
+              </div>
+              <!--名曲推荐结束-->
+
+              <!--同人作品开始-->
+              <div class="product">
+                  <ul>
+                      <li><a href="javascript:void(0)">莫问今朝　　演唱：音频怪物</a><a href="javascript:void(0)" class="em"><em>&nbsp;4784</em></a></li>
+                      <li><a href="javascript:void(0)">琉璃月　　　演唱：杨幂</a><a href="javascript:void(0)" class="em"><em>&nbsp;1969</em></a></li>
+                      <li><a href="javascript:void(0)">祈愿　　　　演唱：天下3</a><a href="javascript:void(0)" class="em"><em>&nbsp;1387</em></a></li>
+                      <li><a href="javascript:void(0)">闲音空梦　　演唱：天下3</a><a href="javascript:void(0)" class="em"><em>&nbsp;1082</em></a></li>
+                      <li><a href="javascript:void(0)">明月曲　　　演唱：天下3</a><a href="javascript:void(0)" class="em"><em>&nbsp;418</em></a></li>
+                      <li><a href="javascript:void(0)">御歌行　　　演唱：Aki阿杰</a><a href="javascript:void(0)" class="em"><em>&nbsp;795</em></a></li>
+                      <li><a href="javascript:void(0)">天地离歌 　演唱：音频怪物 晃儿</a><a href="javascript:void(0)" class="em"><em>&nbsp;880</em></a></li>
+                  </ul>
+                  <ul class="kongbai"></ul>
+                  <ul>
+                      <li><a href="javascript:void(0)">诀别之曲　　演唱：天下3</a><a class="em"><em>&nbsp;562</em></a></li>
+                      <li><a href="javascript:void(0)">永夜殇歌　　演唱：李和</a><a class="em"><em>&nbsp;659</em></a></li>
+                      <li><a href="javascript:void(0)">夜阑　　　　演唱：袁丽媛</a><a class="em"><em>&nbsp;500</em></a></li>
+                      <li><a href="javascript:void(0)">孤月辞　　　演唱：俞乔婷</a><a class="em"><em>&nbsp;753</em></a></li>
+                      <li><a href="javascript:void(0)">龙巫宫赞　　演唱：李和</a><a class="em"><em>&nbsp;918</em></a></li>
+                      <li><a href="javascript:void(0)">长命女　　　演唱：喵☆酱</a><a class="em"><em>&nbsp;1097</em></a></li>
+                      <li><a href="javascript:void(0)">再战今朝　　演唱：柯暮卿等</a><a class="em"><em>&nbsp;836</em></a></li>
+                  </ul>
+                  <a href="javascript:void(0)" class="ak">进入5SING主页 &gt;&gt;</a>
+
+              </div>
+
+
+              <!--同人作品结束-->
+          </div>
+
+    </div>
+
+        <!--banner结束-->
+    <!--footer部分开始-->
+     <div class="footer">
+        <div class="music-w">
+            <p>
+                <span class="imgs">
+                    <a href="javascript:void (0)" class="all img1"></a>
+                    <a href="javascript:void (0)" class="all img2"></a>
+                    <a href="javascript:void (0)" class="all img3"></a>
+                </span>
+                <span class="someLinks">
+                   <a href="javascript:void (0)">公司简介</a>
+                    <i>-</i>
+                    <a href="javascript:void (0)">客户服务</a>
+                    <i>-</i>
+                    <a href="javascript:void (0)">相关法律</a>
+                    <i>-</i>
+                    <a href="javascript:void (0)">网易游戏</a>
+                    <i>-</i>
+                    <a href="javascript:void (0)">联系我们</a>
+                    <i>-</i>
+                    <a href="javascript:void (0)">商务合作</a>
+                    <i>-</i>
+                    <a href="javascript:void (0)">加入我们</a>
+                    <br>
+                    <span style="color: #ccc;font-family: '宋体';">杭州网易雷火科技有限公司版权所有 ©1997-2017　</span>
+                    <a href="javascript:void (0)" class="project">点击查看家长监护工程 ></a>　
+                </span>
+            </p>
+            <p class="last">tx3.163.com由广州网易计算机系统有限公司授权杭州网易雷火科技有限公司使用</p>
+        </div>
+     </div>
+
+    <!--footer部分结束-->
+
+
+
+</body>
+</html>

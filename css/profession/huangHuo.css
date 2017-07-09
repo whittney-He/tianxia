@@ -1,0 +1,297 @@
+/*版心*/
+.profession {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*头部 开始*/
+.hh-top {
+    height: 55px;
+    background-color: #fbfbfb;
+    overflow: hidden;
+}
+
+.hh-logo {
+    margin-top: 5px;
+    float: left;
+}
+
+.hh-news {
+    margin-left: 20px;
+    float: left;
+}
+
+.hh-menu {
+    float: right;
+}
+
+.hh-menu a {
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 52px;
+    color: #333;
+}
+
+.hh-menu a:hover {
+    border-bottom: 3px solid #bc2e2e;
+    color: #bc2e2e;
+    background-color: #F3F3F3;
+}
+
+.hh-menu .catalog {
+    color: #bc2e2e;
+}
+
+.hh-menu .catalog:hover {
+    border-bottom: 0px;
+}
+
+/*头部 结束*/
+/*wrap start*/
+#wrap {
+
+}
+
+.wrap-inner {
+    background: url(../../images/profession/bg_2.jpg) no-repeat center top;
+}
+.wrap-inner-in{
+    background: url(../../images/profession/bg_22.jpg) no-repeat center 289px;
+    /*height: 1000px;*/
+}
+.wrap-menu{
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    background: url(../../images/profession/job1.png) no-repeat center top;
+    position: relative;
+}
+.wrap-menu li{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+}
+.wrap-menu li a{
+    display: block;
+    height: 90px;
+}
+.wrap-menu li.txt1{
+    left: 35px;
+}
+.wrap-menu li.txt2{
+    left: 155px;
+}
+.wrap-menu li.txt3{
+    left: 275px;
+    width: 130px;
+}
+.wrap-menu li.txt4{
+    right: 268px;
+}
+.wrap-menu li.txt5{
+    right: 148px;
+}
+.wrap-menu li.txt6{
+    right: 28px;
+}
+
+.wrap-main {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrap-main-inner01{
+    height: 655px;
+}
+.wrap-main-inner01 ul{
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    width: 604px;
+}
+.wrap-main-inner01 ul li{
+    float: left;
+    height: 40px;
+}
+.aBut{
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: -9999px;
+    height: 40px;
+    background: url(../../images/profession/images.png) no-repeat -9999px -9999px;
+}
+.aBut01, .aBut02, .aBut03, .aBut08, .aBut09, .aBut10{
+    width: 61px;
+}
+.aBut04, .aBut05{
+    width: 59px;
+}
+.aBut06, .aBut07{
+    width: 60px;
+}
+.aBut01:hover{
+    background-position: -664px 0px;
+}
+.aBut02:hover{
+    background-position: -602px 0px;
+}
+.aBut03:hover{
+    background-position: 0px 0px;
+}
+.aBut04{
+    background-position: -61px 0px;
+}
+.aBut05:hover{
+    background-position: -120px 0px;
+}
+.aBut06:hover{
+    background-position: -179px 0px;
+}
+.aBut07:hover{
+    background-position: -239px 0px;
+}
+.aBut08:hover{
+    background-position: -299px 0px;
+}
+.aBut09:hover{
+    background-position: -360px 0px;
+}
+.aBut10:hover{
+     background-position: -421px 0px;
+ }
+
+/*reveal start*/
+.equipment-reveal{
+    margin-bottom: 15px;
+}
+.equipment-reveal-title{
+    background: url(../../images/profession/images_x.png) repeat-x 0px -199px;
+    height: 30px;
+}
+.equipment-reveal-title h2{
+    display: block;
+    width: 142px;
+    height: 30px;
+    overflow: hidden;
+    background: url(../../images/profession/images.png) no-repeat 0px -50px;
+    text-indent: -9999px;
+}
+.equipment-reveal-main{
+    position: relative;
+    height: 240px;
+    background: url(../../images/profession/images_x.png) repeat-x 0px 130px #f6f6f6;
+}
+.equipment-reveal-main-body{
+    position: relative;
+    width: 900px;
+    height: 205px;
+    overflow: hidden;
+    padding: 18px 0 0;
+    margin: 0 auto;
+}
+.equipment-reveal-main-body ul{
+
+}
+.equipment-reveal-main-body ul li{
+    float: left;
+    width: 150px;
+    height: 205px;
+    text-align: center;
+}
+
+.aBut-Left {
+    position: absolute;
+    width: 15px;
+    height: 28px;
+    background-position: -520px -50px;
+    top: 50%;
+    margin-top: -14px;
+    left: 8px;
+}
+.aBut-Right {
+    position: absolute;
+    width: 15px;
+    height: 28px;
+    background-position: -560px -50px;
+    top: 50%;
+    margin-top: -14px;
+    right: 8px;
+}
+
+/*图片放大*/
+.equipment-reveal-main-body ul li:hover img, .weapon-reveal-body-main ul li:hover img{
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+.sit-reveal{
+    float: left;
+    width: 212px;
+    margin: 0 0 15px;
+}
+.sit-reveal h2{
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    background: url(../../images/profession/images.png) no-repeat -300px -50px;
+    text-indent: -9999px;
+}
+.sit-reveal-body{
+    position: relative;
+    height: 175px;
+    background: #f6f6f6 url(../../images/profession/images_x.png) repeat-x 0 70px;
+}
+
+.weapon-reveal{
+    float: right;
+    width: 731px;
+    margin: 0 0 15px;
+}
+.weapon-reveal-title{
+    height: 30px;
+    background: url(../../images/profession/images_x.png) repeat-x 0 -200px;
+}
+.weapon-reveal-title h2{
+    display: block;
+    width: 142px;
+    height: 30px;
+    overflow: hidden;
+    background: url(../../images/profession/images.png) no-repeat -150px -50px;
+    text-indent: -9999px;
+}
+
+.weapon-reveal-body{
+    position: relative;
+    height: 175px;
+    background: #f6f6f6 url(../../images/profession/images_x.png) repeat-x 0 70px;
+}
+.weapon-reveal-body-main{
+    position: relative;
+    width: 680px;
+    height: 150px;
+    overflow: hidden;
+    padding: 16px 0 0;
+    margin: 0 auto;
+}
+
+.weapon-reveal-body-main ul{
+}
+.weapon-reveal-body-main ul li{
+    float: left;
+    width: 170px;
+    height: 150px;
+    text-align: center;
+}
+/*reveal end*/
+
+/*footer start*/
+.footer{
+    text-align: center;
+    line-height: 24px;
+    font-family: "SimSun", "宋体";
+}
+/*footer end*/
+/*wrap end*/

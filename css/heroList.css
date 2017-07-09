@@ -1,0 +1,459 @@
+    /*初始化*/
+    html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+        margin: 0;
+        padding: 0;
+    }
+
+    fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+        border: none;
+        padding: 0;
+        margin: 0;
+        outline-style: none;
+    }
+
+    ul, ol {
+        list-style: none;				/*清除列表风格*/
+    }
+
+    input {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-family: "SimSun", "宋体";
+    }
+
+    select, input {
+        vertical-align: middle;
+    }
+
+    select, input, textarea {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    /*防止多行文本框拖动*/
+    img {
+        border: 0;
+        vertical-align: middle;
+    }
+
+    /*  去掉图片低测默认的3像素空白缝隙*/
+    table {
+        border-collapse: collapse;			/*合并外边线*/
+    }
+
+
+    body {
+        font: 14px Arial, Verdana, "microsoft yahei";	/*宋体，Unicode，统一码*/
+        color: #666;
+        background: #fff
+    }
+
+    .clearfix:before, .clearfix:after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix:after {
+        clear: both;
+    }
+
+    .clearfix {
+        *zoom: 1; /*IE/7/6*/
+    }
+
+    a {
+        color: #B3B3B3;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #FF7D09;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 100%;
+    }
+
+    s, i, em {
+        font-style: normal;
+        text-decoration: none;
+    }
+
+    .col-red {
+        color: #C81623 !important;
+    }
+
+    /*公共类*/
+    .w {
+        /*版心 提取 */
+        width: 1170px;
+        margin: 0 auto;
+    }
+
+    .fl {
+        float: left
+    }
+
+    .fr {
+        float: right
+    }
+
+    .al {
+        text-align: left
+    }
+
+    .ac {
+        text-align: center
+    }
+
+    .ar {
+        text-align: right
+    }
+
+    .hide {
+        display: none
+    }
+
+    /*背景*/
+    #bg{
+        width: 100%;
+        height: 1080px;
+        background: url("../images/heroList/mainbg.jpg") no-repeat top center;
+    }
+    /*顶部logo和文字*/
+    .top{
+        height: 140px;
+    }
+    .top .logo{
+        display: block;
+        width: 250px;
+        height: 140px;
+        float: left;
+        text-indent: -99999px;
+    }
+    .top-cont{
+        float: right;
+        margin: 40px 25px 0 0 ;
+    }
+    .top-cont span{
+        color:#fff;
+        font-weight: 600;
+    }
+   .top-cont a{
+        padding: 0 6px;
+        color:#fff;
+    }
+  .top-cont a:hover,
+  .ranklist ul li a:hover,
+  .tool ul li a:hover{
+        color: #FF7D09 ;
+        text-decoration: underline;
+    }
+    /*搜索框和排行榜*/
+    .search{
+        height: 244px;
+    }
+    /*搜索框*/
+    .search-frame{
+        width: 457px;
+        height: 42px;
+        margin-left:355px;
+    }
+    .searchTtx{
+        width: 399px;
+        height: 42px;
+        padding-left: 10px;
+        float: left;
+        color:#b2b2b2;
+        font: 14px simsun;
+    }
+    .searchBtn{
+        width: 48px;
+        height: 42px;
+        float: right;
+        cursor: pointer;
+        background: none repeat scroll 0 0 transparent;
+    }
+
+    /*搜索下内容*/
+    .search-cont{
+        height: 157px;
+        margin-top:45px;
+    }
+    /*排行榜*/
+    .ranklist{
+        width: 625px;
+        height: 157px;
+
+    }
+    .ranklist h3,.tool h3,.title li{
+        height: 22px;
+        color:#262626;
+        padding-left: 16px;
+        font: 800 22px  "楷体";
+        background: url("../images/heroList/icon1.png") no-repeat bottom left;
+    }
+    .ranklist ul,.tool ul{
+        margin-top: 5px;
+        padding-left: 5px;
+    }
+    .ranklist ul li,.tool ul li{
+        width: 205px;
+        height: 30px;
+        line-height: 30px;
+        float: left;
+        position: relative;
+    }
+    .ranklist ul li a,.tool ul li a{
+        color:#262626;
+    }
+    .ranklist ul{
+        position: relative;
+        z-index: 99;
+    }
+    .ranklist ul li ul{
+        display:none;
+    }
+    .ranklist ul.hoverBox{
+        padding-left: 0;
+        position: absolute;
+        top:25px;
+        left:10px;
+        width: 160px;
+        height: 275px;
+        background-color: #595959;
+        opacity: 0.95;
+    }
+    .ranklist ul.hoverBox li{
+        width: 150px;
+        height: 25px;
+        line-height: 25px;
+        padding-left: 10px;
+    }
+    .ranklist ul.hoverBox li:hover{
+        background-color: #FF581E;
+    }
+    .ranklist ul.hoverBox li a{
+        color:#B5B6B7;
+    }
+    .ranklist ul.hoverBox li a:hover{
+        text-decoration: none;
+    }
+    .tool{
+        width: 490px;
+        height: 157px;
+    }
+
+    /*主要内容部分*/
+    .cont-main-left{
+        padding: 19px 0;
+    }
+    .title{
+        height: 35px;
+
+    }
+    .title li{
+        font-weight: 400;
+        width: 130px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        color:#fff;
+        float: left;
+        background: none;
+        padding-left: 1px;
+    }
+    .title li.current{
+        font-weight: 700;
+        color:#FF7D15;
+        cursor: pointer;
+        border-bottom: 1px solid #FF7D15;
+    }
+
+    /*切换内容*/
+    .tab-con ul{
+        height: 165px;
+        width: 620px;
+        display:none;
+        padding-top: 17px;
+    }
+    .tab-con ul.selected{
+        display:block;
+    }
+    .tab-con ul li{
+        height: 30px;
+        line-height: 30px;
+    }
+
+
+    /*优化说明*/
+    .explain{
+        width: 600px;
+        height: 206px;
+        border: 1px solid #000;
+        padding: 18px 0 0 18px;
+    }
+    .explain h3{
+        height: 28px;
+    }
+    .explain-cont p{
+        height: 24px;
+        color:#B3B3B3;
+    }
+
+    /*主要内容右*/
+
+    .cont-main-right{
+        width: 490px;
+        height: 406px;
+        margin-top: 54px;
+    }
+    /*轮播图*/
+    .pics{
+        position: relative;
+    }
+    .pics-imgs{
+        width: 490px;
+        height: 182px;
+        position: relative;
+    }
+    .pics-imgs a{
+        position:absolute;
+        opacity: 0;
+        z-index: 1;
+    }
+    .pics-imgs a.showcurrent{
+        opacity: 1;
+        z-index: 2;
+    }
+    /*小按钮*/
+    .pics-btns{
+        position: absolute;
+        bottom:4%;
+        left:45%;
+        height: 14px;
+        padding-right: 18px;
+        padding-bottom: 8px;
+        z-index: 2;
+    }
+    .pics-btns a{
+        display: inline-block;
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+        margin-left: 6px;
+        background: url("../images/heroList/scrbtn.png") no-repeat -23px 0;
+    }
+    .pics-btns a.hover{
+        background: url("../images/heroList/scrbtn.png") no-repeat;
+    }
+
+    /*天下热闻*/
+    .hot-news h3{
+        font: 22px "楷体";
+        color: #fff;
+        height: 43px;
+        line-height: 43px;
+        padding-left: 14px;
+    }
+    .hot-news ul{
+        padding: 10px 0 0 12px;
+    }
+    .hot-news ul li{
+        height: 30px;
+        line-height: 30px;
+    }
+    .hot-news ul li a{
+        display: inline-block;
+        width: 410px;
+    }
+    
+    /*footer*/
+    .footer{
+        height: 106px;
+        padding-top: 110px;
+        font-family: SimSun;
+    }
+    .footer-t{
+        height: 34px;
+        line-height: 34px;
+        text-align: center;
+        position: relative;
+    }
+    .footer-t ul,.footer-t span{
+        display: inline-block;
+        height: 20px;
+        line-height: 20px;
+    }
+    .footer-t ul li{
+        float: left;
+        margin-left: 10px;
+    }
+    .showmore{
+        display: none;
+    }
+    .showmore ul{
+        width: 198px;
+        height: 52px;
+        padding: 2px;
+        position: absolute;
+        top: 10px;
+        right: 150px;
+        background:#fff;
+        border: 1px solid #c2c2c2;
+    }
+    .showmore ul li{
+        width: 96px;
+        height: 24px;
+        float: left;
+        margin-left: 0;
+        border: 1px solid #fff;
+    }
+    .showmore ul li a{
+        display: inline-block;
+        width: 96px;
+        height: 24px;
+        margin-left: 5px;
+        font-size: 12px;
+        color:#333;
+    }
+    .showmore ul li:hover{
+        border: 1px solid #c2c2c2;
+        background: #F0F0F0;
+    }
+    .showmore .txwb{
+         background: url("../images/heroList/icon.v5.png") no-repeat left -50px;
+     }
+    .showmore .qqfriend{
+        background: url("../images/heroList/icon.v5.png") no-repeat left bottom;
+    }
+    .showmore .douban{
+        background: url("../images/heroList/icon.v5.png") no-repeat left -250px;
+    }
+    .showmore .baidutb{
+        background: url("../images/heroList/icon.v5.png") no-repeat left -450px;
+    }
+    .footer-b p{
+        width: 823px;
+        height: 50px;
+        margin: 0 auto;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .footer-b-imgs{
+        margin-right: 15px;
+    }
+    .footer-b-cont a,.footer-b-cont span{
+        color:#e23a3f;
+        line-height: 20px;
+
+    }
+    .footer-b-cont a:hover{
+        text-decoration: underline;
+    }

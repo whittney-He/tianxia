@@ -1,0 +1,481 @@
+/*背景部分*/
+.bg {
+    min-width: 1280px;
+    max-width: 1920px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 5933px;
+}
+.meeting-bg-repeat {
+    background: url(../images/meeting/face_bg0_repeat.jpg) repeat top center;
+}
+.meeting-bg-1 {
+    background: url(../images/meeting/face_bg1.jpg) no-repeat top center;
+}
+.meeting-bg-2 {
+    background: url(../images/meeting/face_bg2.jpg) no-repeat center 480px;
+}
+.meeting-bg-3 {
+    background: url(../images/meeting/face_bg3.jpg) no-repeat center 870px;
+}
+.meeting-bg-4 {
+    background: url(../images/meeting/face_bg4.jpg) no-repeat center 1707px;
+}
+.meeting-bg-5 {
+    background: url(../images/meeting/face_bg5.jpg) no-repeat center 2544px;
+}
+.meeting-bg-6 {
+    background: url(../images/meeting/face_bg6.jpg) no-repeat center 3381px;
+}
+.meeting-bg-7 {
+    background: url(../images/meeting/face_bg7_foot.jpg) no-repeat center bottom;
+}
+.center {
+    width: 1280px;
+    height: 5933px;
+    margin: 0 auto;
+}
+/*header部分*/
+.header {
+    position: relative;
+    height: 866px;
+}
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    width: 152px;
+    height: 73px;
+    text-indent: -9999px;
+}
+.share {
+    position: absolute;
+    top: 21px;
+    left: 929px;
+    width: 241px;
+    height: 35px;
+    background: url(../images/meeting/share_bg.png) no-repeat;
+}
+.share-icon a,
+.share-more em {
+    position: absolute;
+    top: 3px;
+    width: 27px;
+    height: 29px;
+    text-indent: -9999px;
+}
+.share-btn1{
+    left: 63px;
+}
+.share-btn2{
+    left: 91px;
+}
+.share-btn3{
+    left: 119px;
+}
+.share-btn4{
+    left: 147px;
+}
+.share-btn5{
+    left: 175px;
+}
+.share-more em {
+    left: 211px;
+    cursor: pointer;
+}
+.share-more ul {
+    display: none;
+    position: absolute;
+    top: 32px;
+    left: 50px;
+    background-color: #fff;
+    width: 198px;
+    height: 182px;
+    border: 1px #c2c2c2 solid;
+    
+}
+.share-more li {
+    float: left;
+    width: 99px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+/*main部分开始*/
+.main {
+    position: relative;
+    height: 4887px;
+    width: 1280px;
+    background: url(../images/meeting/face_main_line.jpg) repeat-y center top;
+}
+.btn-go {
+    position: absolute;
+    top: -136px;
+    left: 50%;
+    margin-left: -55px;
+    width: 110px;
+    height: 110px;
+    text-indent: -9999px;
+    background: url(../images/meeting/btns.png) no-repeat -140px top;
+}
+.btn-down {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    margin-left: -17px;
+    width: 34px;
+    height: 34px;
+    background: url(../images/meeting/btns.png) no-repeat -178px -118px;
+}
+/*nav部分*/
+.nav-year {
+    position: absolute;
+    z-index: 1;
+    padding-left: 50px;
+    width: 360px;
+    height: 148px;
+}
+.nav-year li {
+    float: left;
+    margin: 0 14px 14px 0;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: url(../images/meeting/btns.png) no-repeat left -60px;
+
+}
+.nav-year ul li:hover {
+    background-position: -70px -60px;
+}
+.nav-year li a {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 14px;
+    color: #ffe081;
+}
+.nav-year li a span {
+    display: inline-block;
+    width: 60px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left:-18px;
+}
+/*every-year*/
+.years {
+    position: absolute;
+    right: 50%;
+    margin-right: 1px;
+    width: 164px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    background: url(../images/meeting/year.png) no-repeat;
+}
+.img-box-l {
+    position: absolute;
+    width: 639px;
+    height: 144px;
+    background: url(../images/meeting/line_left.png) no-repeat bottom right;
+    left: -500px;
+    opacity: 0;
+}
+
+.img-box-r {
+    position: absolute;
+    width: 639px;
+    height: 144px;
+    background: url(../images/meeting/line_right.png) no-repeat bottom left;
+    right: -500px;
+    opacity: 0;
+}
+.img-box-l img {
+    float: left;
+    width: 263px;
+    height: 119px;
+    margin-left: 72px;
+
+}
+.img-box-r img {
+    float: left;
+    width: 263px;
+    height: 119px;
+    margin-left: 15px;
+
+}
+.information {
+    float: left;
+}
+.information p {
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+}
+.time-l {
+    position: absolute;
+    top:0px;
+    left: 350px;
+}
+.title-l {
+    position: absolute;
+    top: 30px;
+    left: 340px;
+}
+.news-l {
+    position: absolute;
+    top: 60px;
+    left: 345px;
+    font-size: 14px;
+    width: 290px;
+    white-space: nowrap;      /* 1. 强制一行内显示文本 */
+    overflow: hidden;         /* 2. 文字超出隐藏 */
+    text-overflow: ellipsis;  /* 3. 文字显示不开用省略号替代 */
+}
+.details-btn-l {
+    position: absolute;
+    top: 94px;
+    left: 350px;
+    width: 126px;
+    height: 26px;
+    text-indent: -9999px;
+    background: url(../images/meeting/btns.png) no-repeat top left;
+}
+.time-r {
+    position: absolute;
+    top:0px;
+    left: 290px;
+}
+.title-r {
+    position: absolute;
+    top: 30px;
+    left: 280px;
+}
+.news-r {
+    position: absolute;
+    top: 60px;
+    left: 285px;
+    font-size: 14px;
+    width: 290px;
+    white-space: nowrap;      /* 1. 强制一行内显示文本 */
+    overflow: hidden;         /* 2. 文字超出隐藏 */
+    text-overflow: ellipsis;  /*  3. 文字显示不开用省略号替代 */
+}
+.details-btn-r {
+    position: absolute;
+    top: 94px;
+    left: 290px;
+    width: 126px;
+    height: 26px;
+    text-indent: -9999px;
+    background: url(../images/meeting/btns.png) no-repeat top left;
+}
+/*2016年*/
+.meeting2016 {
+     position: relative;
+ }
+.year2016 {
+    margin-top: 82px;
+}
+.img-2016-l1 {
+    top: 194px;
+}
+.img-2016-r1 {
+    top: 140px;
+}
+/*2015年*/
+.meeting2015 {
+    position: relative;
+}
+.year2015 {
+    margin-top: 432px;
+}
+.img-2015-l1 {
+    top: 544px;
+}
+.img-2015-l2 {
+    top: 782px;
+}
+.img-2015-l3 {
+    top: 1022px;
+}
+.img-2015-l4 {
+    top: 1260px;
+}
+.img-2015-r1 {
+    top: 480px;
+}
+.img-2015-r2 {
+    top: 718px;
+}
+.img-2015-r3 {
+    top: 956px;
+}
+.img-2015-r4 {
+    top: 1194px;
+}
+/*2014年*/
+.meeting2014 {
+    position: relative;
+}
+.year2014 {
+    margin-top: 1496px;
+}
+.img-2014-l1 {
+    top: 1608px;
+}
+.img-2014-l2 {
+    top: 1846px;
+}
+.img-2014-r1 {
+    top: 1542px;
+}
+.img-2014-r2 {
+    top: 1780px;
+}
+
+/*2013年*/
+.meeting2013 {
+    position: relative;
+}
+.year2013 {
+    margin-top: 2084px;
+}
+.img-2013-l1 {
+    top: 2198px;
+}
+.img-2013-l2 {
+    top: 2436px;
+}
+.img-2013-r1 {
+    top: 2132px;
+}
+.img-2013-r2 {
+    top: 2370px;
+}
+.img-2013-r3 {
+     top: 2608px;
+ }
+
+/*2012年*/
+.meeting2012 {
+    position: relative;
+}
+.year2012 {
+    margin-top: 2752px;
+}
+.img-2012-l1 {
+    top: 2864px;
+}
+.img-2012-l2 {
+    top: 3102px;
+}
+.img-2012-l3 {
+    top: 3340px;
+}
+.img-2012-r1 {
+    top: 2930px;
+}
+.img-2012-r2 {
+    top: 3168px;
+}
+/*2010年*/
+.meeting2010 {
+    position: relative;
+}
+.year2010 {
+    margin-top: 3578px;
+}
+.img-2010-l1 {
+    top: 3692px;
+}
+
+/*2009年*/
+.meeting2009 {
+    position: relative;
+}
+.year2009 {
+    margin-top: 3930px;
+}
+.img-2009-l1 {
+    top: 4044px;
+}
+.img-2009-r1 {
+    top: 3978px;
+}
+.img-2009-r2 {
+    top: 4216px;
+}
+/*2008年*/
+.meeting2008 {
+    position: relative;
+}
+.year2008 {
+    margin-top: 4360px;
+}
+.img-2008-l1 {
+    top: 4474px;
+}
+.img-2008-r1 {
+    top: 4648px;
+}
+
+/*footer部分开始*/
+.footer {
+    position: absolute;
+    height: 180px;
+    width: 1280px;
+}
+.footer-in {
+    padding-top: 50px;
+    width: 960px;
+    height: 89px;
+    margin: 0 auto;
+}
+.footer-top em,
+.footer-top i,
+.footer-top s,
+.footer-top p
+{
+    float: left;
+
+}
+.footer-top s {
+    padding: 20px 15px 0 15px;
+}
+.footer-top em,
+.footer-top i {
+    padding-top: 20px;
+}
+.footer-bottom {
+    float: left;
+    text-align: center;
+    color: #e23a3f;
+    height: 40px;
+    width: 900px;
+    line-height: 40px;
+}
+.footer-top p span a{
+    background-color: rgb(97,0,0);
+    padding: 2px;
+    color: #FFFFFF;
+}
+.footer-top .footer-copy {
+    color: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+}
+.footer-top p a {
+color: #e23a3f;
+}
+.footer-top p {
+    color: #e23a3f;
+}
+
+

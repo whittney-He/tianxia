@@ -1,0 +1,421 @@
+/*版心*/
+.profession {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*头部 开始*/
+.hh-top {
+    height: 55px;
+    background-color: #fbfbfb;
+    /*overflow: hidden;*/
+}
+
+.hh-logo {
+    margin-top: 5px;
+    float: left;
+}
+
+.hh-news {
+    margin-left: 20px;
+    float: left;
+    position: relative;
+}
+
+.hh-menu {
+    float: right;
+}
+
+.hh-menu a {
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 52px;
+    color: #333;
+}
+
+.hh-menu a:hover {
+    border-bottom: 3px solid #bc2e2e;
+    color: #bc2e2e;
+    background-color: #F3F3F3;
+}
+
+.hh-menu .catalog {
+    color: #bc2e2e;
+}
+
+.hh-menu .catalog:hover {
+    border-bottom: 0px;
+}
+
+/*头部 结束*/
+/*wrap start*/
+#wrap {
+
+}
+
+.wrap-inner {
+    background: url(../../images/profession/bg_9.jpg) no-repeat center top;
+}
+
+.wrap-inner-in {
+    background: url(../../images/profession/bg_99.jpg) no-repeat center 600px;
+    /*height: 1000px;*/
+}
+
+.wrap-menu {
+    width: 1000px;
+    height: 84px;
+    margin: 0 auto;
+    background: url(../../images/profession/job1.png) no-repeat center top;
+    position: relative;
+}
+
+.wrap-menu li {
+    width: 120px;
+    height: 84px;
+    position: absolute;
+}
+
+.wrap-menu li a {
+    display: block;
+    height: 84px;
+}
+
+.wrap-menu li.txt1 {
+    left: 35px;
+}
+
+.wrap-menu li.txt2 {
+    left: 155px;
+}
+
+.wrap-menu li.txt3 {
+    left: 275px;
+    width: 130px;
+}
+
+.wrap-menu li.txt4 {
+    right: 268px;
+}
+
+.wrap-menu li.txt5 {
+    right: 148px;
+}
+
+.wrap-menu li.txt6 {
+    right: 28px;
+}
+
+.wrap-main {
+    width: 1098px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrap-main-inner01 {
+    height: 301px;
+}
+
+.wrap-main-inner01 ul {
+    position: absolute;
+    /*top: 35px;*/
+    right: 25px;
+    width: 604px;
+}
+
+.wrap-main-inner01 ul li {
+    float: left;
+    height: 40px;
+}
+
+.aBut {
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: -9999px;
+    height: 40px;
+    background: url(../../images/profession/images-guiMo.png) no-repeat -9999px -9999px;
+}
+
+.aBut01, .aBut02, .aBut03, .aBut08, .aBut09, .aBut10 {
+    width: 61px;
+}
+
+.aBut04, .aBut05 {
+    width: 59px;
+}
+
+.aBut06, .aBut07 {
+    width: 60px;
+}
+
+.aBut01 {
+    background-position: -664px 0px;
+}
+
+.aBut02:hover {
+    background-position: -602px 0px;
+}
+
+.aBut03:hover {
+    background-position: 0px 0px;
+}
+
+.aBut04:hover {
+    background-position: -61px 0px;
+}
+
+.aBut05:hover {
+    background-position: -120px 0px;
+}
+
+.aBut06:hover {
+    background-position: -179px 0px;
+}
+
+.aBut07:hover {
+    background-position: -239px 0px;
+}
+
+.aBut08:hover {
+    background-position: -299px 0px;
+}
+
+.aBut09:hover {
+    background-position: -360px 0px;
+}
+
+.aBut10:hover {
+    background-position: -421px 0px;
+}
+
+
+
+/*游戏风格*/
+.intro {
+    width: 443px;
+    position: absolute;
+    top: 185px;
+    left: 620px;
+    color: #fff;
+    z-index: 1
+}
+
+.intro h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px
+}
+
+.intro p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.mainCont {
+    height: 624px;
+    position: relative;
+    zoom: 1;
+}
+
+.mainCont .article {
+    width: 446px;
+    height: 330px;
+    position: absolute;
+    left: 620px;
+    top: 41px;
+    display: none;
+    z-index: 9999;
+}
+.mainCont .current{
+    display: block;
+}
+.mainCont .nav ul {
+    position: absolute;
+    left: 620px;
+    top: 9px;
+    z-index: 1;
+}
+
+.mainCont .nav li {
+    float: left;
+}
+
+.mainCont li.current .li_1 {
+    background-position: -104px 0;
+}
+
+.mainCont .nav li a {
+    display: block;
+    width: 104px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: url(../../images/profession/tab.jpg) no-repeat;
+    cursor: default;
+}
+
+.mainCont li.current a {
+    background-image: url(../../images/profession/tabhov.jpg);
+    color: #000;
+}
+
+.g-clr:after {
+    display: block;
+    clear: both;
+    height: 0;
+    content: "\0020";
+}
+
+#videoShow {
+    width: 446px;
+    height: 251px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.mainCont .article .radar {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 1;
+}
+
+.roleIntro {
+    position: absolute;
+    top: 40px;
+    left: 215px;
+    -webkit-animation: move 2s 0s 1 ease normal none;
+    -moz-animation: move 2s 0s 1 ease normal none;
+}
+
+.lw .roleIntro {
+    left: 240px;
+    width: 270px;
+}
+
+.roleIntro h2 {
+    color: #ff6f3c;
+    font-size: 14px;
+    margin-bottom: 10px
+}
+
+.roleIntro li {
+    padding-left: 10px;
+    color: #d9dae1;
+    font-size: 12px;
+    background: url(../../images/profession/contli.gif) no-repeat left 8px;
+    line-height: 24px;
+}
+
+.lw .roleIntro li {
+    color: #627074;
+    margin-bottom: 8px
+}
+
+#SlideWrap {
+    width: 504px;
+    height: 228px;
+    position: relative;
+    zoom: 1;
+    position: absolute;
+    top: 40px;
+    left: -25px;
+}
+
+.lw #videoShow, .lw #SlideWrap {
+    left: 13px;
+}
+
+#SlideWrap h2.Title {
+    margin: 0;
+    font-size: 14px;
+    color: #be0000;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-indent: 0;
+    height: 14px !important;
+    line-height: 14px !important;
+    background: none !important;
+}
+
+#SlideWrap .ImgList {
+    width: 445px;
+    height: 225px;
+    position: absolute;
+    left: 26px;
+    overflow: hidden;
+}
+
+#SlideWrap .PicList {
+    width: 99999px;
+    position: relative
+}
+
+#SlideWrap .PicList li {
+    float: left;
+    width: 445px;
+    /*margin-right: 9px;*/
+    padding: 0 !important
+}
+
+#SlideWrap .PicList li a img {
+    display: block;
+    width: 445px;
+    height: 225px
+}
+
+#SlideWrap .PicList li p {
+    color: #4d5158
+}
+
+#SlideWrap .PicList li p.intro {
+    margin-top: 6px;
+    text-indent: 28px
+}
+
+#SlideWrap .prev, #SlideWrap .next {
+    display: block;
+    height: 47px;
+    width: 18px;
+    background: url(../../images/profession/switch.png) no-repeat;
+    position: absolute;
+    top: 92px;
+    cursor: pointer;
+    outline: 0;
+    text-indent: -9999px;
+    z-index: 99
+}
+
+#SlideWrap .prev {
+    left: 0px;
+}
+
+#SlideWrap .prev:hover {
+    background-position: 0 -47px
+}
+
+#SlideWrap .next {
+    background-position: -18px 0;
+    left: 478px;
+}
+
+#SlideWrap .next:hover {
+    background-position: -18px -47px;
+}
+
+
+
+/*footer start*/
+.footer {
+    text-align: center;
+    line-height: 24px;
+    font-family: "SimSun", "宋体";
+}
+
+/*footer end*/
+/*wrap end*/

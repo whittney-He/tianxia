@@ -1,0 +1,424 @@
+/*网易充值中心*/
+/*版心*/
+.pay-w {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*头部+banner*/
+#pay-game {
+    width: 100%;
+    height: 442px;
+    position: relative;
+}
+
+.pay-game-head {
+    width: 100%;
+    height: 77px;
+    border-bottom: 1px solid #000;
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: url(../images/paygame/navbg.png) repeat-x;
+}
+
+.pay-game-head-in {
+    width: 100%;
+    height: 76px;
+    border-bottom: 1px solid #5E6F81;
+}
+
+.pay-game-head-in-header {
+    height: 76px;
+}
+
+.pay-logo {
+    margin: 8px 0 0 0px;
+    width: 200px;
+    height: 60px;
+    background: url(../images/paygame/logo.png) no-repeat center center;
+    float: left;
+}
+
+.pay-logo a {
+    text-indent: -2000px;
+    overflow: hidden;
+    display: block;
+    height: 60px;
+}
+
+.pay-bigmenu {
+    width: 550px;
+    float: right;
+    height: 76px;
+}
+
+.pay-bigmenu-menutop {
+    float: right;
+    color: #A7A7A7;
+}
+
+.pay-bigmenu-menutop a {
+    margin: 0 20px;
+    line-height: 24px;
+    color: #A7A7A7;
+    font-size: 14px;
+}
+
+.pay-bigmenu-menu {
+    float: right;
+
+}
+
+.pay-bigmenu-menu li {
+    margin: 4px 0;
+
+    float: left;
+}
+
+.pay-bigmenu-menu li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    padding: 5px 33px;
+    border-radius: 5px;
+}
+
+.pay-bigmenu-menu li.hover a {
+    background-color: #D21B35;
+}
+
+/*banner 背景图*/
+.pay-game-ban {
+    height: 442px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.pay-game-ban ul {
+    width: 30000px;
+    position: absolute;
+    top: 0px;
+}
+
+.pay-game-ban li {
+    background-image: url(../images/paygame/pay-ban5.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 442px;
+    width: 100%;
+    max-width: 1920px;
+    float: left;
+}
+
+/*小焦点*/
+.pay-squre {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+
+.pay-squre li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 3px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.pay-squre li.current {
+    background-color: #CC0000;
+}
+
+/*左右点击按钮*/
+.pay-button {
+    width: 1100px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -550px;
+    display: none;
+}
+
+#pay-button-left, #pay-button-right {
+    height: 62px;
+    width: 36px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    line-height: 62px;
+    font-size: 52px;
+    color: #fff;
+    font-family: SimSun;
+    cursor: pointer;
+}
+
+#pay-button-left {
+    left: 0px;
+}
+
+#pay-button-right {
+    right: 0px;
+}
+
+/*pay-news start*/
+.pay-news {
+    width: 250px;
+    height: 341px;
+    border-top: 4px solid #D21B35;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    margin-left: 250px;
+}
+
+.pay-news-in {
+    height: 330px;
+    border-top: 1px solid #AC192E;
+    padding: 10px 15px 0;
+}
+
+.pay-news-in h2 {
+    font-size: 22px;
+    color: #fff;
+    line-height: 45px;
+    font-weight: bolder;
+    border-bottom: 1px solid #A7A7A7;
+}
+
+.pay-news-in h2 span {
+    width: 75px;
+    font-size: 14px;
+    font-weight: normal;
+    float: right;
+    color: #fff;
+    display: block;
+}
+
+.pay-news-in h2 span i {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #A7A7A7;
+    display: block;
+    float: right;
+    margin-top: 18px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.pay-news-in ul li {
+    line-height: 34px;
+    font-size: 14px;
+    border-top: 1px dotted #A7A7A7;
+}
+
+.pay-news-in li span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: red;
+}
+
+.pay-news-in li a {
+    color: #A7A7A7;
+}
+/*product部分*/
+/*product-title部分*/
+.pay-game-product-title {
+    line-height: 72px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #d21b35;
+}
+
+/*pay-game-product-content部分*/
+
+.pay-game-product-content {
+    width: 1012px;
+    /*height: 300px;*/
+    overflow: hidden;
+}
+
+.pay-game-product-content-tab {
+    width: 1005px;
+    height: 52px;
+    margin-bottom: 10px;
+}
+
+.pay-game-product-content-tab span {
+    display: block;
+    float: left;
+    width: 250px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.pay-game-product-content-tab span.current1, .pay-game-product-content-tab .tab1:hover {
+    background: url(../images/pay-game-nav.jpg) no-repeat 0 -52px;
+}
+
+.pay-game-product-content-tab span.current2, .pay-game-product-content-tab .tab2:hover {
+    background: url(../images/pay-game-nav.jpg) no-repeat -250px -52px;
+}
+
+.pay-game-product-content-tab span.current3, .pay-game-product-content-tab .tab3:hover {
+    background: url(../images/pay-game-nav.jpg) no-repeat -500px -52px;
+}
+
+.pay-game-product-content-tab span.current4, .pay-game-product-content-tab .tab4:hover {
+    background: url(../images/pay-game-nav.jpg) no-repeat -751px -52px;
+}
+
+.pay-game-product-content-tab .tab1 {
+    background: url(../images/pay-game-nav.jpg) no-repeat;
+}
+
+.pay-game-product-content-tab .tab2 {
+    background: url(../images/pay-game-nav.jpg) no-repeat -250px 0;
+}
+
+.pay-game-product-content-tab .tab3 {
+    background: url(../images/pay-game-nav.jpg) no-repeat -500px 0;
+}
+
+.pay-game-product-content-tab .tab4 {
+    background: url(../images/pay-game-nav.jpg) no-repeat -751px 0;
+}
+
+.pay-game-product-content-imgs {
+    width: 1012px;
+    /*height: 565px;*/
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pay-game-product-content-imgs li {
+    display: none;
+
+}
+
+.pay-game-product-content-imgs li.current {
+    display: block;
+}
+
+.pay-game-product-content-imgs li a {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    position: relative;
+    border: 1px solid #EAEAEA;
+
+}
+
+.pay-game-product-content-imgs li a p {
+    width: 250px;
+    color: #555;
+    position: absolute;
+    bottom: 13px;
+    left: 0;
+}
+
+/*pay-game-footer部分*/
+.pay-game-footer {
+    height: 240px;
+    background-color: #F0F0F0;
+    margin-top: 20px;
+}
+
+.pay-game-footer-top {
+    height: 116px;
+    padding-top: 24px;
+}
+
+.pay-game-footer-top .all {
+    margin-right: 45px;
+    padding-left: 35px;
+    line-height: 20px;
+    color: #626262;
+    font-size: 14px;
+}
+
+.pay-game-footer-top .question {
+    margin-left: 74px;
+    background: url(../images/pay-game-question.png) no-repeat;
+}
+
+.pay-game-footer-top .service {
+    margin-left: 20px;
+    background: url(../images/pay-game-service.png) no-repeat;
+}
+
+.pay-game-footer-top-service .tel {
+    color: #999999;
+}
+
+.pay-game-footer-top-service .title {
+    line-height: 20px;
+    color: #626262;
+    font-size: 14px;
+}
+
+.pay-game-footer-top ul {
+    list-style: disc;
+    width: 400px;
+}
+
+.pay-game-footer-top li {
+    width: 200px;
+    height: 32px;
+    float: left;
+}
+
+.pay-game-footer-top a {
+    color: #999999;
+}
+
+.pay-game-footer-top li.else {
+    list-style: none;
+}
+
+.pay-game-footer-top .else a {
+    text-decoration: underline;
+    color: #D21B35;
+}
+
+.pay-game-footer-bottom {
+    padding-top: 15px;
+    height: 83px;
+    border-top: 1px dotted #939393;
+}
+
+.pay-game-footer-bottom-logo {
+    float: left;
+    margin-left: 140px;
+}
+
+.pay-game-footer-bottom-logo img {
+    float: left;
+}
+
+.pay-game-footer-bottom-links a {
+    color: #939393;
+}
+
+.pay-game-footer-bottom-links {
+    float: left;
+    margin-left: 20px;
+    color: #939393;
+}

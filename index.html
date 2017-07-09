@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/topNav.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iconfont/iconfont.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+
+<div class="top">
+    <div class="top-w">
+        <!--顶部左测logo-->
+        <div class="top-left">
+            <a href="http://game.163.com/" target="_blank" class="top-logo">网易游戏</a>
+        </div>
+        <!--顶部中间的img广告-->
+        <div class="top-middle" id="top_middle_zn">
+            <div class="">
+                <img src="images/zn_top_left.jpg" alt="">
+            </div>
+            <!--鼠标悬停显示的大广告-->
+            <div class="top-middle-bottom">
+                <a href="http://game.163.com/?from=nietop" target="_blank">
+                    <img src="images/top-banner-big.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <!--顶部右侧ul-->
+        <div class="top-right">
+            <!--注册登录-->
+            <ul>
+                <li><a href="login.html" target="_blank">注册账号</a></li>
+                <li><a href="payGame.html" target="_blank">购卡充值</a></li>
+            </ul>
+            <!--游戏全目录-->
+            <div class="catalogue" id="cataloguegame">
+                    <span>
+                        网易游戏全目录
+                        <!--三角-->
+                        <i class="cataloguei">
+                            <s class="catalogues"></s>
+                        </i>
+                    </span>
+                <!--鼠标悬停显示目录大盒子-->
+                <div class="catalogue-box" id="cataloguegame-box">
+                    <!--移动端-->
+                    <div class="pcgame">
+                        <div class="pcgame-top">
+                            客户端游戏
+                        </div>
+                        <div class="pcgame-bottom" id="pcBo">
+                            <p>角色扮演</p>
+                        </div>
+                    </div>
+                    <!--手机端-->
+                    <div class="phonegame">
+                        <div class="phonegame-top">
+                            手机游戏
+                        </div>
+                        <div class="phonegame-left">
+                            <div class="phonegame-hot" id="phoneBo">
+                                <p>热门推荐</p>
+                            </div>
+                            <div class="phonegame-newone" id="po">
+                                <p>新品推荐</p>
+                            </div>
+                            <div class="phonegame-newtwo" id="potwo">
+
+                            </div>
+                            <div class="phonegame-newthree" id="pothree">
+
+                            </div>
+                        </div>
+                        <div class="more-game">
+                            <a href="http://game.163.com/" target="_blank">更多热门手游</a>
+                        </div>
+                        <div class="phonegame-right">
+
+                        </div>
+                    </div>
+                    <!--游戏辅助-->
+                    <div class="assistgame">
+                        <div class="assistgame-top">
+                            游戏辅助
+                        </div>
+                        <div class="assistgame-bottom" id="assbottom">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--垂直无缝链接-->
+            <div class="getgift" id="giftdiv">
+                <div id="lunbo">
+                    <a href="http://game.163.com/" target="_blank">领取礼物</a>
+                    <a href="http://www.kaola.com/activity/detail/11835.shtml?tag=7cc46fc8c91a33ec9
+                          aa62298347b4ede&__da_MmVZMh_zPJ3p1rAsE" target="_blank">游戏充值9.8折</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--中间nav部分-->
+<div class="main">
+    <div class="nav">
+        <ul class="nav-ul" id="navgameul">
+            <a href="javascript:;" class="daythree">天下三</a>
+        </ul>
+    </div>
+
+
+    <div class="geme-downloadWrap w">
+        <!--留言板滚动-->
+        <!--滚动留言板部分-->
+        <div class="message-board">
+            <!--日期部分-->
+            <div class="message-board-time">今日：
+                <span class="solar" id="solar"></span>
+                [
+                <span class="lunar" id="lunar"></span>
+                ]
+            </div>
+            <!--滚动条部分-->
+            <div class="message-board-scroll">
+                <ul class="scroll-left" id="scroll-left">
+                    <li>
+                        <div class="item_wrap">
+                            <em></em><span>祝［碧海青天］<span class="name">墨染桃花花更盛</span>@<span class="name">墨染桃花花更盛</span>结婚2周年快乐！</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item_wrap">
+                            <em></em><span>祝［君临天下］<span class="name">、、天王盖地虎</span>@<span class="name">你是二百五？</span>结婚4周年快乐！</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item_wrap">
+                            <em></em><span>祝［云端仙境］<span class="name">西海龙王</span>@<span class="name">东土大唐||三藏</span>结婚5周年快乐！</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item_wrap">
+                            <em></em><span>祝［东方明珠］<span class="name">落水无痕</span>@<span class="name">那年花开正好</span>结婚3周年快乐！</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item_wrap">
+                            <em></em><span>祝［执子之手］<span class="name">东方彧卿</span>@<span class="name">落袋为安</span>结婚2周年快乐！</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item_wrap">
+                            <em></em><span>祝［君临天下］<span class="name">逆市飘红</span>@<span class="name">何处尘埃</span>结婚3周年快乐！</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item_wrap">
+                            <em></em><span>祝［蓝田日暖］<span class="name">曾经沧海难为水</span>@<span class="name">日照香炉生紫烟</span>结婚2周年快乐！</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item_wrap">
+                            <em></em><span>祝［恶灵骑士］<span class="name">青青子衿</span>@<span class="name">悠悠我心</span>结婚2周年快乐！</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--纪念日部分-->
+            <div class="message-board-mark">
+                <div class="message-board-mark-big">
+                    <div class="message-board-mark-small">
+                        <a href="javascript:;">今日纪念夫妻</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--游戏下载部分-->
+        <div class="geme-download">
+            <!--左侧游戏下载登录部分-->
+            <!--左侧游戏下载登录部分-->
+            <div class="download-left fl">
+                <div class="download-left-t">
+                    <a href="#"> 下载</a>
+                </div>
+                <ul id="uu">
+                    <li>
+                        <a href="#" class="link">
+                            <span>账号注册</span>
+                            <span class="ahover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <span>新手指南</span>
+                            <span class="ahover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <span>天下英雄榜</span>
+                            <span class="ahover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <span>藏宝阁</span>
+                            <span class="ahover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <span>客服专区</span>
+                            <span class="ahover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <span>心易服务</span>
+                            <span class="ahover"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--轮播图 -->
+            <!--中间轮播图部分-->
+            <div class="download-center fl" id="download-center">
+                <!--图片-->
+                <div class="small-banners" id="sbanners">
+                    <a class="current">
+                        <img src="images/small-banner1.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/small-banner2.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/small-banner3.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/small-banner4.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/small-banner5.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/small-banner6.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/small-banner7.jpg" alt="">
+                    </a>
+                </div>
+                <!--小按钮-->
+                <div class="small-banners-btns" id="sbtns">
+                    <a class="current">
+                        <span></span>
+                        <span class="ahover"></span>
+                    </a>
+                    <a>
+                        <span></span>
+                        <span class="ahover"></span>
+                    </a>
+                    <a>
+                        <span></span>
+                        <span class="ahover"></span>
+                    </a>
+                    <a>
+                        <span></span>
+                        <span class="ahover"></span>
+                    </a>
+                    <a>
+                        <span></span>
+                        <span class="ahover"></span>
+                    </a>
+                    <a>
+                        <span></span>
+                        <span class="ahover"></span>
+                    </a>
+                    <a>
+                        <span></span>
+                        <span class="ahover"></span>
+                    </a>
+                </div>
+            </div>
+            <!--右侧tab部分-->
+            <div class="tab-right">
+                <!--tab头*部部分-->
+                <a href="http://tx3.163.com/news/" target="_blank" class="news-more">
+                    <span>更多</span>
+                </a>
+                <div class="tab-right-hd" id="tab-right-hd">
+                    <ul id="tab-right-hd-ul">
+                        <li class="current">
+                            <a href="javascript:;">最新</a>
+                            <span></span>
+                        </li>
+                        <li>
+                            <a href="javascript:;">新闻</a>
+                            <span></span>
+                        </li>
+                        <li>
+                            <a href="javascript:;">公告</a>
+                            <span></span>
+                        </li>
+                        <li>
+                            <a href="javascript:;">活动</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--tab内容部分-->
+                <div class="tab-right-bd" id="tab-right-bd">
+                    <div class="tab-right-bd-mi">
+                        <!--最新-->
+                        <div class="current">
+                            <ul>
+                                <li>
+                                    <a href="#"><i>[新闻] </i>不仅仅是比赛！PVP线下总决赛事升</a>
+                                    <span>01/03</span>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i>[公告] </i>《天下3》更新公告(版本2.0.633)</a>
+                                    <span>01/03</span>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i>[新闻] </i>《天下3》回忆征集活动：我在天下遇见</a>
+                                    <span>01/03</span>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i>[新闻] </i>力顶天下3，来《玩家盛典》赢iphone7</a>
+                                    <span>12/30</span>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i>[三石精选] </i>久坐游戏要注意骨关节健康！维骨</a>
+                                    <span>12-09</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--新闻-->
+                        <div>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="#"><i>[新闻] </i>不仅仅是比赛！PVP线下总决赛事升</a>
+                                        <span>01/03</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i>[新闻] </i>《天下3》回忆征集活动：我在天下遇见</a>
+                                        <span>01/03</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i>[新闻] </i>力顶天下3，来《玩家盛典》赢iphone7</a>
+                                        <span>12/30</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i>[新闻]</i>奇遇俱乐部今日开测！你收到激活码了</a>
+                                        <span>12/29</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i>[新闻] </i>缤纷新品3重惠，新年红包大派送</a>
+                                        <span>12-27</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--公告-->
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i>[公告] </i>《天下3》更新公告(版本2.0.633)</a>
+                                    <span>01/03</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i>[公告] </i>《天下3》更新公告(版本2.0.632)</a>
+                                    <span>12/27</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i>[公告] </i>《天下3》12月28日更新预告</a>
+                                    <span>12/26</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i>[公告]</i>《天下3》更新公告(版本2.0.631)</a>
+                                    <span>12/20</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i>[公告] </i>天下一统区增开新服：飞鸿踏雪</a>
+                                    <span>12/20</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--活动-->
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i>[活动] </i>盛世天下情！《天下3》国庆活动集锦</a>
+                                    <span>09/29</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i>[活动] </i>中秋团圆，聚在义起</a>
+                                    <span>09/13</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i>[活动] </i>燃情奥运 躁动一夏 奥运特别活动</a>
+                                    <span>08/08</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i>[活动]</i>《天下3》2016七夕活动现已开启！</a>
+                                    <span>08/05</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i>[活动] </i>致我们永不落幕的青春 上海见面会</a>
+                                    <span>07/07</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--tab搜索框部分-->
+                <div class="tab-right-search">
+                    <input type="text" class="tab-search-txt" id="tab-search-txt">
+                    <input type="button" class="tab-search-btn" id="tab-search-btn">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--老友推荐-->
+<div class="oldPal w">
+    <!--老友推荐左侧-->
+    <div class="recommend">
+        <!--上部分-老友推荐-->
+        <div class="recom-top">
+            <h2>老友推荐</h2>
+            <ul class="search-btn clearfix">
+                <li class="search-btn1"><a href="javascript:;"><span>线下活动</span></a></li>
+                <li class="search-btn2"><a href="javascript:;"><span>资料片回顾</span></a></li>
+                <li class="search-btn3"><a href="javascript:;"><span>新服查询</span></a></li>
+                <li class="search-btn4"><a href="javascript:;"><span>合服查询</span></a></li>
+            </ul>
+            <ul class="new-info">
+                <li>
+                    <a href="javascript:;">
+                        俊男美女，大荒coser冲破次元还原天下
+                    </a>
+                    <span>12/21</span>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        惊艳！西海NPC最全壁纸下载
+                    </a>
+                    <span>11/27</span>
+                </li>
+            </ul>
+        </div>
+        <!--下部分-天下纪年-->
+        <div class="recom-annals">
+            <div class="title clearfix">
+                <h3>天下纪年</h3>
+                <a href="javascript:;" class="cre-ann">生成我的纪年</a>
+            </div>
+            <div class="ann-info" id="ann-info">
+            </div>
+        </div>
+    </div>
+    <!--老友推荐中部 人物技能-->
+    <div class="jobsWrap">
+        <div class="jobs">
+            <!--技能按钮-->
+            <div class="jobs-btn" id="jobs-btn">
+                <ul>
+                    <li class="jobs-btn1 bg-top"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn2 bg-down"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn3 bg-top"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn4 bg-down"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn5 bg-top"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn6 bg-down"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn7 bg-top"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn8 bg-down"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn9 bg-top"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn10 bg-down"><a href="javascript:;"><span class="ahover"></span></a></li>
+                    <li class="jobs-btn11 bg-top"><a href="javascript:;"><span class="ahover"></span></a></li>
+                </ul>
+            </div>
+            <!--人物详情-->
+            <div class="jobs-tabcon" id="jobs-tabcon">
+                <div class="jobs-con jobs-con1">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>阵地战 爆发系</p>
+                        <p><span>特色：</span>绘物成真 以静制动</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con2">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>远程 控制 召唤</p>
+                        <p><span>特色：</span>召唤灵兽 全面控场</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con3">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>近攻 瞬发 狂战</p>
+                        <p><span>特色：</span>爆发力强 杀戮狂人</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con4">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>远程 法师 高攻</p>
+                        <p><span>特色：</span>法系输出 腾云飞行</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con5">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>防御 坦克 团队</p>
+                        <p><span>特色：</span>防御强悍 团队领导</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con6">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>治疗 毒医 辅助</p>
+                        <p><span>特色：</span>团体治疗 用毒高手</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con7">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>远程 偷袭 速度</p>
+                        <p><span>特色：</span>超远射程 释放陷阱</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con8">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>全能 回蓝 御剑</p>
+                        <p><span>特色：</span>生存力强 物法双修</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con9">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>刺杀 隐遁 爆击</p>
+                        <p><span>特色：</span>隐身能力 神秘偷袭</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con10">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>变身 冲刺 强控</p>
+                        <p><span>特色：</span>攻防兼备 控制干扰</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+                <div class="jobs-con jobs-con11">
+                    <!--描述-->
+                    <div class="desc">
+                        <p><span>定位：</span>阵地战 爆发系</p>
+                        <p><span>特色：</span>绘物成真 以静制动</p>
+                    </div>
+                    <!--武力值表格-->
+                    <i class="form"></i>
+                    <!--人物形象-->
+                    <i class="figure"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--老友推荐右侧 资料-->
+    <div class="material" id="material">
+        <div class="app-down">
+            <a href="javascript:;">
+                <img src="images/jobs-app-down.jpeg" alt="">
+            </a>
+        </div>
+        <div class="datum">
+            <a href="javascript:;">
+                <img src="images/jobs-datum.jpeg" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--天下工具部分-->
+<div class="tools">
+    <div class="w">
+        <div class="tools-left">
+            <div class="tools-left-content">
+                <h3 class="tools-left-title">
+                    天下工具
+                </h3>
+                <div class="tools-left-search">
+                    <input type="text" placeholder="百科搜索" class="search-txt"/>
+                    <input type="button" class="search-btn"/>
+                </div>
+                <div class="tools-left-keywords clearfix">
+                    <ul>
+                        <li><a href="#">时代背景</a></li>
+                        <li><a href="#">大荒由来</a></li>
+                        <li><a href="#">故事背景</a></li>
+                        <li><a href="#">师徒系统</a></li>
+                        <li><a href="#">有缘人</a></li>
+                        <li><a href="#">结义天下</a></li>
+                        <li><a href="#">夫妻系统</a></li>
+                        <li><a href="#">势力</a></li>
+                    </ul>
+                </div>
+                <div class="sub-title">
+                    <h4 class="sub-title-renwu">任务数据</h4>
+                    <i class="line"></i>
+                    <a href="#" class="more"></a>
+                </div>
+                <div class="tools-left-keywords clearfix">
+                    <ul>
+                        <li><a href="#">莫问今朝</a></li>
+                        <li><a href="#">太古铃音</a></li>
+                        <li><a href="#">吟龙幻愿</a></li>
+                        <li><a href="#">幻海伽蓝</a></li>
+                        <li><a href="#">天天好礼</a></li>
+                        <li><a href="#">势力偷袭</a></li>
+                        <li><a href="#">夜·溟</a></li>
+                        <li><a href="#">海·寂</a></li>
+                    </ul>
+                </div>
+                <div class="sub-title">
+                    <h4 class="sub-title-fuben">副本资料</h4>
+                    <i class="line"></i>
+                    <a href="#" class="more"></a>
+                </div>
+                <div class="tools-left-keywords clearfix">
+                    <ul>
+                        <li><a href="#">归墟天扉</a></li>
+                        <li><a href="#">孔雀灵宫</a></li>
+                        <li><a href="#">思过圃</a></li>
+                        <li><a href="#">建木之影</a></li>
+                        <li><a href="#">埋骨之地</a></li>
+                        <li><a href="#">太虚鬼观</a></li>
+                        <li><a href="#">天牢·挑战</a></li>
+                        <li><a href="#">传道场 </a></li>
+                    </ul>
+                </div>
+                <div class="sub-title">
+                    <h4 class="sub-title-pvp">PVP玩法</h4>
+                    <i class="line"></i>
+                    <a href="#" class="more"></a>
+                </div>
+                <div class="tools-left-keywords clearfix">
+                    <ul>
+                        <li><a href="#">巴蜀战场</a></li>
+                        <li><a href="#">雪竹战场</a></li>
+                        <li><a href="#">流光战场</a></li>
+                        <li><a href="#">势力战</a></li>
+                        <li><a href="#">门派比武</a></li>
+                        <li><a href="#">流光梦境</a></li>
+                        <li><a href="#">竞技场</a></li>
+                        <li><a href="#">势力演兵 </a></li>
+                    </ul>
+                </div>
+
+                <div class="tools-left-btnlist">
+                    <ul>
+                        <li><a href="#" class="btn1"><span>玄修模拟器</span></a></li>
+                        <li><a href="#" class="btn2"><span>天下知道</span></a></li>
+                        <li><a href="#" class="btn3"><span>乱斗场</span></a></li>
+                        <li><a href="#" class="btn4"><span>英雄榜</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tools-middle">
+            <div class="tools-mid-title">
+                <h4>天下热文</h4>
+                <div class="hot-keyword">
+                    <a href="#" class="btn btn1"><span>爆料</span></a>
+                    <a href="#" class="btn btn2"><span>装备</span></a>
+                    <a href="#" class="btn btn3"><span>趣事</span></a>
+                    <a href="#" class="btn btn4"><span>杂谈</span></a>
+                    <a href="#" class="btn btn5"><span>论坛</span></a>
+                </div>
+                <a href="#" class="more"></a>
+            </div>
+            <div class="tools-mid-imglist clearfix">
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/tools-img-1.jpg" alt=""></a>
+                        <p>
+                            新时装：嘉年华奖励时装“皎月使者”
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/tools-img-2.jpg" alt=""></a>
+                        <p>
+                            新时装：嘉年华奖励时装“皎月使者”
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/tools-img-3.jpg" alt=""></a>
+                        <p>
+                            新时装：嘉年华奖励时装“皎月使者”
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/tools-img-4.jpg" alt=""></a>
+                        <p>
+                            新时装：嘉年华奖励时装“皎月使者”
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/tools-img-5.jpg" alt=""></a>
+                        <p>
+                            新时装：嘉年华奖励时装“皎月使者”
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/tools-img-6.jpg" alt=""></a>
+                        <p>
+                            新时装：嘉年华奖励时装“皎月使者”
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="tools-mid-infolist">
+                <ul>
+                    <li><a href="#">新事迹“角色扮演”达成需求一览</a><span>12/27</span></li>
+                    <li><a href="#">原画：2017鸡年元魂珠“昴日星官”</a><span>12/27</span></li>
+                    <li><a href="#">原画：大福利！软萌雪尘飞超美展示</a><span>12/27</span></li>
+                    <li><a href="#">原画：邪魅正太！血眸星罗人设高清大图</a><span>12/27</span></li>
+                    <li><a href="#">钓鱼攻略，帅奶爸钓鱼之不愿意也得上钩</a><span>12/25</span></li>
+                    <li><a href="#">2017年势力争霸赛74等级冠军丷訫説</a><span>12/23</span></li>
+                    <li><a href="#">【论坛】随手拍，晒出身边的圣诞气氛</a><span>12/23</span></li>
+                    <li><a href="#">俊男美女，大荒coser冲破次元还原天下</a><span>12/21</span></li>
+                    <li><a href="#">【论坛】直播挖宝钓鱼战场家园拿军饷</a><span>12/14</span></li>
+                    <li><a href="#">【论坛】分享瑶碧梦境见闻，不虚此行</a><span>12/14</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="tools-right">
+            <div class="tools-right-top">
+                <div class="tools-right-title">
+                    <h3>游戏攻略</h3>
+                    <a href="#" class="more"></a>
+                </div>
+                <div class="tools-right-list">
+                    <ul>
+                        <li><a href="#">钓鱼攻略，帅奶爸钓鱼之不愿意也得上钩 </a><span>12/25</span></li>
+                        <li><a href="#">带你斩杀boss，领略瑶碧梦境风土人情 </a><span>12/04</span></li>
+                        <li><a href="#">可爱玖大讲堂之元魂珠：老司机详解 </a><span>11/27</span></li>
+                        <li><a href="#">可爱玖大讲堂之太阴马：如何培养太阴马 </a><span>11/17</span></li>
+                        <li><a href="#">可爱玖大讲堂之太初：如何选择太初胚子 </a><span>11/17</span></li>
+                        <li><a href="#">可爱玖大讲堂之英魂：进化版元魂珠 </a><span>11/07</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tools-right-bottom">
+                <ul>
+                    <li class="btn1" id="toolsRightBtn1"><a href="javascript:void(0);"
+                                                            id="toolsRightBtn1Hover"><span></span></a></li>
+                    <li class="btn2" id="toolsRightBtn2"><a href="javascript:void(0);"
+                                                            id="toolsRightBtn2Hover"><span></span></a></li>
+                    <li class="btn3"><a href="#"></a></li>
+                    <li class="btn4"><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--同人大赏-->
+<div class="enjoy">
+    <div class="w">
+        <div class="enjoy-header">
+            <h3>同人大赏</h3>
+            <div class="enjoy-header-nav">
+                <a href="javascript:void(0);" class="enjoy-header-btn1" id="enjoy-header-btn1"></a>
+                <a href="javascript:void(0);" class="enjoy-header-btn2" id="enjoy-header-btn2"></a>
+                <a href="javascript:void(0);" class="enjoy-header-btn3" id="enjoy-header-btn3"></a>
+                <a href="javascript:void(0);" class="enjoy-header-btn4" id="enjoy-header-btn4"></a>
+                <a href="javascript:void(0);" class="enjoy-header-btn5" id="enjoy-header-btn5"></a>
+                <a href="javascript:void(0);" class="enjoy-header-btn6" id="enjoy-header-btn6"></a>
+            </div>
+        </div>
+        <div class="enjoy-main">
+            <div class="enjoy-main-left">
+                <ul class="enjoy-main-left-content" id="enjoy-main-left-content">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span><img src="images/enjoy_img1.jpg" alt=""/></span>
+                            <p class="enjoy-main-left-content-title">同人cos：一见钟情，天竺迷情遇上敦煌</p>
+                            <p class="enjoy-main-left-content-writer">作者：圆滚滚的毛线</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span><img src="images/enjoy_img2.jpg" alt=""/></span>
+                            <p class="enjoy-main-left-content-title">电脑壁纸：一月月历，新年始旧貌换新颜</p>
+                            <p class="enjoy-main-left-content-writer">作者：翰书天下</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span><img src="images/enjoy_img3.jpg" alt=""/></span>
+                            <p class="enjoy-main-left-content-title">角色扮演：真男神！张凯枫帅出新高度</p>
+                            <p class="enjoy-main-left-content-writer">作者：雪舞清風</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span><img src="images/enjoy_img4.jpg" alt=""/></span>
+                            <p class="enjoy-main-left-content-title">同人绘画：行走的画卷，巫礼萌萌哒</p>
+                            <p class="enjoy-main-left-content-writer">作者：【翰书天下】森闲</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span><img src="images/enjoy_img5.jpg" alt=""/></span>
+                            <p class="enjoy-main-left-content-title">手机壁纸：长发披散，淡雅巫姑惹人爱</p>
+                            <p class="enjoy-main-left-content-writer">作者：【翰书天下】帝鸢</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span><img src="images/enjoy_img6.jpg" alt=""/></span>
+                            <p class="enjoy-main-left-content-title">电脑壁纸：2017，从新出发，新年快乐</p>
+                            <p class="enjoy-main-left-content-writer">作者：玄悠</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span><img src="images/enjoy_img7.jpg" alt=""/></span>
+                            <p class="enjoy-main-left-content-title">电脑壁纸：元旦壁纸，新的一年红红火火</p>
+                            <p class="enjoy-main-left-content-writer">作者：翰书天下</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span><img src="images/enjoy_img8.jpg" alt=""/></span>
+                            <p class="enjoy-main-left-content-title">双端壁纸：涅沙摇光，帝江脸模？？？</p>
+                            <p class="enjoy-main-left-content-writer">作者：从前有个老果子</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="enjoy-main-left-recommend">
+                    <h4>本月推荐</h4>
+                    <a href="javascript:void(0);">
+                        <img src="images/enjoy_icon1.png" alt="">
+                        <span>COS：弈剑易水玄裳</span>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <img src="images/enjoy_icon2.png" alt="">
+                        <span>绘画：Q版鬼墨奶娃</span>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <img src="images/enjoy_icon3.png" alt="">
+                        <span>美图：主要目的是耍帅</span>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <img src="images/enjoy_icon4.png" alt="">
+                        <span>短篇：《大荒神石》</span>
+                    </a>
+                </div>
+            </div>
+            <div class="enjoy-main-right">
+                <div class="enjoy-main-right-banner">
+                    <div class="enjoy-main-right-banner-pic">
+                        <a href="javascript:void(0);"><img src="images/enjoy_banner.jpg" alt=""></a>
+                    </div>
+                    <div class="enjoy-main-right-banner-radio">
+                        <a href="javascript:void(0);"><span class="radio-left" id="radio-left"></span></a>
+                        <a href="javascript:void(0);"><span class="radio-play" id="radio-play"></span></a>
+                        <a href="javascript:void(0);"><span class="radio-right" id="radio-right"></span></a>
+                    </div>
+                </div>
+                <div class="enjoy-main-right-songs">
+                    <ul class="enjoy-main-right-songs-list" id="songs-list">
+                        <li>
+                            <a href="javascript:void(0);">
+                                <i class="hide">1</i>
+                                <em></em>
+                                <p>天下3-家国天下　　　　演唱：竹桑</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <i>2</i>
+                                <em class="hide"></em>
+                                <p>天下3-云里江南　　　　演唱：HITA</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <i>3</i>
+                                <em class="hide"></em>
+                                <p>天下3-煮酒听雨　　　　演唱：吾恩</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <i>4</i>
+                                <em class="hide"></em>
+                                <p>天下3-御剑听雨　　　　演唱：荒颜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <i>5</i>
+                                <em class="hide"></em>
+                                <p>天下3-婆娑　　　　　　演唱：九歌</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="enjoy-main-right-songs-btn">
+                        <a href="javascript:void(0);" class="songs-btn-left">如何上官网</a>
+                        <a href="javascript:void(0);" class="songs-btn-right">我要上头条</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!--热点关注-->
+<div class="hotAtt w">
+    <!--标题-->
+    <div class="title">
+        <h2>热点关注</h2>
+    </div>
+    <!--图片部分-->
+    <div class="hot-info" id="hot-info">
+        <ul class="clearfix">
+            <li><a href="javascript:;"><img src="images/hot-img1.jpeg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/hot-img2.jpeg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/hot-img3.jpeg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/hot-img4.jpeg" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="hot-share clearfix">
+        <span>分享到:</span>
+        <ul class="hot-share-single clearfix">
+            <li><a href="javascript:;" class="iconfont icon-erweima">二维码</a></li>
+            <li><a href="javascript:;" class="iconfont icon-yixin">易信</a></li>
+            <li><a href="javascript:;" class="iconfont icon-xinlang">新浪微博</a></li>
+            <li><a href="javascript:;" class="iconfont icon-qqkongjian">qq空间</a></li>
+            <li><a href="javascript:;" class="iconfont icon-renren">人人网</a></li>
+            <li><a href="javascript:;" class="iconfont icon-icontianjia01" id="shareMore">更多</a></li>
+        </ul>
+        <div class="hot-share-more" id="hot-share-more">
+            <ul>
+                <li>
+                    <a href="javascript:;" class="tx">腾讯微博</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="qq">QQ好友</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="db">豆瓣</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="bd">百度贴吧</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<!--页脚-->
+<div class="footerWrap">
+    <div class="footer">
+        <span class="footer-logo">
+            <a href="javascript:;" class="netease"></a>
+            <a href="javascript:;" class="nie"></a>
+            <a href="javascript:;" class="wen"></a>
+        </span>
+        <span class="footer-frindLink">
+            <a href="javascript:;">公司简介</a><i> - </i>
+            <a href="javascript:;">客户服务</a><i> - </i>
+            <a href="javascript:;">相关法律</a><i> - </i>
+            <a href="javascript:;">网易游戏</a><i> - </i>
+            <a href="javascript:;">联系我们</a><i> - </i>
+            <a href="javascript:;">商务合作</a><i> - </i>
+            <a href="javascript:;">加入我们</a>
+            <br>
+            <span class="footer-copyright">杭州网易雷火科技有限公司版权所有 ©1997-2017</span>
+        </span>
+        <a href="javascript:;" class="footer-tutelage">点击查看家长监护工程 ></a>
+        <br/>
+        <div class="footer-explain">
+            <span>
+            本游戏适合18岁以上的玩家进入。<br/>
+            积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。<br/>
+            <a href="javascript:;">《网络游戏管理暂行办法》</a>　文网游备字(2013)C-RPG001号《网络文化经营许可证》浙网文[2016]0155-055号<br/>
+            tx3.163.com由广州网易计算机系统有限公司授权杭州网易雷火科技有限公司使用<br/>
+            </span>
+        </div>
+    </div>
+</div>
+
+<!--近期热点-->
+<div class="jqrd">
+    <div class="jqrdMid w">
+        <a href="javascript:;" class="jqrd-img1">
+            <img src="images/jqrd-img1.png" alt="">
+            <h6>灵山十巫应援团</h6>
+            <p>西海全新NPC大赏</p>
+        </a>
+        <a href="javascript:;">
+            <img src="images/jqrd-img2.jpg" alt="">
+            <h6>2017年岁末演兵</h6>
+            <p>无敌势力，战出来！</p>
+        </a>
+        <a href="javascript:;">
+            <img src="images/jqrd-img3.jpg" alt="">
+            <h6>骆集益谱写西海乐章</h6>
+            <p>入眼昆仑几万里，仙乐相伴沁人心兽</p>
+        </a>
+        <a href="javascript:;">
+            <img src="images/jqrd-img4.jpg" alt="">
+            <h6>西海场景全息展示</h6>
+            <p>云端仙境，缥缈昆仑</p>
+        </a>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/topNav.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

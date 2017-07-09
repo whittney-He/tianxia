@@ -1,0 +1,596 @@
+.w {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*.wrap {*/
+/*position: relative;*/
+/*margin: 0 auto;*/
+/*min-width: 960px;*/
+/*max-width: 1920px;*/
+/*overflow: hidden;*/
+/*}*/
+
+/*banner部分*/
+.banner-wrap {
+    position: relative;
+    height: 504px;
+
+    position: relative;
+    margin: 0 auto;
+    min-width: 960px;
+    max-width: 1920px;
+    overflow: hidden;
+}
+
+.banner {
+    height: 504px;
+    background: url("../images/geographyRec/tx_bg.jpg") no-repeat 50% 0;
+}
+
+/*右上角导航部分*/
+.banner .banner-nav {
+    position: absolute;
+    top: 0;
+    right: 3px;
+}
+
+.banner .banner-nav li {
+    position: relative;
+    float: left;
+    width: 78px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.banner .banner-nav li a {
+    margin-left: 21px;
+    color: #c3c3c3;
+    font-family: "simSun";
+}
+
+.banner .banner-nav li a:hover {
+    color: #ff7219;
+    text-decoration: underline;
+}
+
+.banner .banner-nav li span {
+    position: absolute;
+    top: 17px;
+    left: 9px;
+    width: 2px;
+    height: 2px;
+    background: #c3c3c3;
+}
+
+/*风景导航部分*/
+.banner .banner-area {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+.banner .banner-area li {
+    float: left;
+    width: 70px;
+    height: 95px;
+    line-height: 95px;
+    padding-left: 26px;
+    background: url("../images/geographyRec/nav_split.png") no-repeat right center;
+}
+
+.banner .banner-area li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #c1c1c1;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.banner .banner-area li a:hover {
+    color: #ff7219;
+}
+
+/*内容部分-风景展示*/
+/*风景区域的公共样式*/
+.sce-area .sce-intro {
+    height: 94px;
+    padding-top: 86px;
+}
+
+.sce-area .sce-intro h5 {
+    float: left;
+    width: 62px;
+    height: 72px;
+    padding: 11px 52px;
+    background: #727272;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "microsoft yahei";
+    line-height: 36px;
+}
+
+.sce-area .sce-intro p {
+    float: left;
+    width: 724px;
+    height: 64px;
+    background: #f2f2f2;
+    color: #8e8e8e;
+    font-size: 14px;
+    font-family: "simSun";
+    line-height: 23px;
+    padding: 30px 35px 0 35px;
+}
+
+/*风景标题部分*/
+.sce-title {
+    height: 50px;
+    padding-top: 62px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.sce-title h3 {
+    font-size: 30px;
+    color: #ff5400;
+    font-family: "microsoft yahei";
+    font-weight: bold;
+    text-align: center;
+}
+
+/*风景内容部分*/
+/*风景内容公共部分*/
+.sce-cont .sce-cont-item {
+    padding-top: 30px;
+}
+
+/*标题*/
+.sce-cont-item .item-title {
+    height: 64px;
+    background: #f2f2f2;
+}
+
+.sce-cont-item .item-title h4 {
+    color: #4d5158;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.sce-cont-item .title-desc h4 {
+    padding-top: 10px
+}
+
+.sce-cont-item .title-desc span {
+    display: block;
+    color: #6d6d6d;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-left: 25px;
+}
+
+/*图片内容区域*/
+.sce-cont-item .item-part {
+    height: 317px;
+    padding-top: 15px;
+}
+
+/*描述*/
+.item-part .item-part-desc {
+    float: left;
+    width: 295px;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.item-part .item-part-desc p {
+    color: #6d6d6d;
+    /*font-family: "simSun";*/
+}
+
+/*图片*/
+.item-part .item-part-pic {
+    float: left;
+    width: 600px;
+}
+
+.item-part .item-part-pic img {
+    width: 600px;
+    height: 317px;
+}
+
+/*更多美图*/
+.sce-more {
+    padding-top: 30px;
+}
+
+/*标题-与各个美景的标题相同*/
+.sce-more .sce-more-title {
+    height: 64px;
+    background: #f2f2f2;
+}
+
+.sce-more .sce-more-title h4 {
+    color: #4d5158;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+/*图片展示区域*/
+.sce-more-items {
+    position: relative;
+    padding-top: 35px;
+}
+
+.sce-more-items .items-roll {
+    position: relative;
+    width: 875px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*z-index: 1;*/
+}
+
+.sce-more-items .items-roll ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5000px;
+}
+
+.sce-more-items .items-roll li {
+    float: left;
+    margin: 0 5px;
+}
+
+.sce-more-items .items-roll li a {
+    cursor: pointer;
+}
+
+.sce-more-items .items-roll li img {
+    width: 165px;
+    height: 120px;
+}
+
+.sce-more-items .items-cut-btn {
+    position: absolute;
+    left: 0;
+    top: 85px;
+    width: 100%;
+}
+
+.sce-more-items .items-cut-btn span {
+    float: left;
+    width: 18px;
+    height: 29px;
+    background: url("../images/geographyRec/arrow.png") no-repeat -54px -3px;
+    cursor: pointer;
+}
+
+.sce-more-items .items-cut-btn .rightBtn {
+    float: right;
+    background-position: -36px -3px;
+}
+
+/*分享与美图来源部分*/
+.share {
+    padding-top: 80px;
+}
+
+/*美图来源*/
+.share .origin p {
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    font-family: "simSun";
+}
+
+/*分享*/
+.share-con {
+    padding-top: 55px;
+    padding-bottom: 43px;
+    border-bottom: 1px dotted #ccc;
+    text-align: center;
+}
+
+.share-con span, .share-con a {
+    color: #666;
+    font-family: "simSun";
+}
+
+.share-con span {
+    padding-right: 10px;
+}
+
+.share-con a {
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 18px;
+    margin-right: 19px;
+    background: url("../images/geographyRec/icon_v2.png") no-repeat;
+}
+
+.share-con a:hover {
+    color: #ff7219;
+}
+
+.share-con .wy {
+    background-position: 0 -132px;
+}
+
+.share-con .qzone {
+    background-position: 0 -44px;
+}
+
+.share-con .tx {
+    background-position: 0 -88px;
+}
+
+.share-con .xl {
+    background-position: 0 -66px;
+}
+
+.share-con .kxw {
+    background-position: 0 -176px;
+}
+
+.share-con .sh {
+    background-position: 0 -220px;
+}
+
+.share-con .rrw {
+    background-position: 0 -198px;
+}
+
+.share-con .db {
+    background-position: 0 -264px;
+}
+
+.share-con .msn {
+    background-position: 0 -396px;
+}
+
+/*底部*/
+.footer {
+    position: relative;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer span, .footer a {
+    color: #4e4e4e;
+    font-size: 12px;
+    font-family: "simSun";
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    display: inline-block;
+    height: 31px;
+}
+
+.footer-logo .netease {
+    display: inline-block;
+    width: 118px;
+    height: 31px;
+    background: url("../images/netease.1.png");
+    margin-left: 30px;
+}
+
+.footer-logo .nie {
+    display: inline-block;
+    width: 134px;
+    height: 31px;
+    background: url("../images/nie.1.png");
+}
+
+.footer-logo .wen {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: url("../images/wen.png");
+    margin-left: 10px;
+}
+
+.footer-frindLink {
+    display: inline-block;
+    height: 31px;
+    padding-left: 15px;
+}
+
+.footer .footer-tutelage {
+    position: absolute;
+    top: 19px;
+    right: 193px;
+    width: 143px;
+    height: 28px;
+    line-height: 28px;
+    background: #610000;
+    text-indent: 3px;
+    color: #fff;
+}
+
+.footer .footer-explain {
+    text-align: center;
+    padding-top: 8px;
+}
+
+/*右侧导航区域*/
+.right-nav {
+    position: absolute;
+    top: 704px;
+    left: 50%;
+    width: 158px;
+    margin-left: 510px;
+}
+
+.right-nav.nav-fixed {
+    position: fixed;
+    top: 135px;
+}
+
+/*导航*/
+.right-nav .nav-con {
+    text-align: center;
+    background: #434546;
+}
+
+.nav-con h3 {
+    height: 59px;
+    line-height: 59px;
+    font: bold 18px/60px "microsoft yahei";
+    color: #C1C1C1;
+    background: url("../images/geographyRec/silderDL.png") no-repeat center bottom;
+    cursor: pointer;
+}
+
+.nav-con .nav-list li {
+    width: 98px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 30px;
+    border-bottom: 1px dotted #6b6b6b;
+}
+
+.nav-con .nav-list li a {
+    position: relative;
+    color: #aeaeae;
+}
+
+.nav-con .nav-list li a i {
+    position: absolute;
+    top: 6px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: 3px solid transparent;
+    border-left: 3px solid #fff;
+    display: none;
+}
+
+.nav-con .nav-list li a:hover {
+    color: #fff;
+}
+
+.nav-con .nav-list li a:hover i {
+    display: block;
+}
+
+/*goTop*/
+.right-nav .goTop {
+    color: #ff5400;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: right;
+    font-size: 12px;
+    font-family: "simSun";
+}
+
+/*弹出图片幻灯片*/
+/*遮罩层*/
+.slide {
+    display: none;
+}
+
+.slide .shade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+/*幻灯片*/
+.slide .slide-img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    /*margin-top: -260px;*/
+    /*margin-left: -400px;*/
+    /*transform: scale(0.3);*/
+    /*transition: all .8s linear;*/
+}
+
+/*图片展示*/
+.slide-img .slide-img-tier {
+    position: relative;
+    padding: 10px;
+    background: #fff;
+}
+
+.slide-img .slide-img-tier img {
+    /*width: 0;*/
+    /*height: 0;*/
+    /*width: 800px;*/
+    /*height: 400px;*/
+}
+
+/*图片切换层*/
+.slide-img .slide-img-tier .cutTier {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-img-tier .cutTier .leftTier {
+    float: left;
+    width: 49%;
+    height: 100%;
+    /*cursor: url(../images/geographyRec/cur-left.cur), auto;*/
+}
+
+.slide-img-tier .cutTier .rightTier {
+    float: left;
+    width: 49%;
+    height: 100%;
+    /*cursor: url(../images/geographyRec/cur-right.cur), auto;*/
+}
+
+/*图片操作区域*/
+.slide-img .slide-img-ope {
+    height: 40px;
+    line-height: 30px;
+    padding-left: 20px;
+    background: #fff;
+    display: block;
+}
+
+.slide-img-ope p, .slide-img-ope span {
+    color: #666;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.slide-img-ope p {
+    float: left;
+}
+
+.slide-img-ope span {
+    padding: 0 5px;
+}
+
+.slide-img-ope .slide-img-close {
+    float: right;
+    width: 66px;
+    height: 22px;
+    margin-top: 5px;
+    padding-right: 15px;
+    background: url("../images/geographyRec/lightbox-btn-close.gif") no-repeat;
+    cursor: pointer;
+}

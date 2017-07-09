@@ -1,0 +1,699 @@
+/*版心*/
+.n {
+    width: 1000px;
+    margin: 0 auto;
+}
+/*头部logo及导航*/
+.header {
+    height: 535px;
+}
+/*logo部分*/
+.header1 {
+    height: 85px;
+    background-color: #191919;
+}
+.herder-logo {
+    text-indent: -2000px;
+    float: left;
+    display: block;
+    width: 193px;
+    height: 85px;
+    background: url(../images/mapDepot/logo.jpg) no-repeat;
+}
+.header-login {
+    float: right;
+    height: 85px;
+    line-height: 85px;
+    color: #B0B0B0;
+}
+.header-login a {
+    color: #8C8B8B;
+}
+/*导航部分*/
+.header2 {
+    height: 50px;
+    background-color: #FF8800;
+}
+.header2 .header-nav {
+    height: 50px;
+    line-height: 50px;
+}
+.header2 .header-nav li {
+    float: left;
+    height: 17px;
+    margin-top: 17px;
+    border-right: 1px solid #b25e00;
+}
+.header2 .header-nav a {
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    display: block;
+    color: #FFFFFF;
+    margin: 0 10px;
+    position: relative;
+    top: -6px;
+    padding: 0 10px;
+    cursor: auto;
+    border-radius: 5px;
+}
+.default {
+    background-color: #000000;
+}
+.header3 {
+    height: 400px;
+    background-color: #808080;
+    position: relative;
+}
+/*相框*/
+.photo-frame {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+
+}
+/*图片所在ul*/
+.scrollpics {
+    height: 400px;
+    width: 5000px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+.scrollpics li {
+    float: left;
+    width: 1000px;
+    height: 400px;
+}
+
+
+/*图片所在ol中小按钮*/
+.photo-frame ol {
+    position: absolute;
+    bottom: 8px;
+    left: 420px;
+
+}
+.photo-frame ol li {
+    width: 60px;
+    height: 40px;
+    margin-right: 15px;
+    border: 1px solid black;
+    float: left;
+    cursor: pointer;
+}
+.photo-frame ol img {
+    width: 60px;
+    height: 40px;
+}
+.photo-frame .current-an {
+    border: 2px solid #FF8A00;
+}
+
+
+/*左右按钮样式及鼠标进入设置*/
+.btn {
+    width: 1190px;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    left: 50%;
+    margin-left: -595px;
+    cursor: pointer;
+}
+.btn .btn-left {
+    float: left;
+    width: 66px;
+    height: 66px;
+    background: url(../images/mapDepot/lr.png) no-repeat;
+}
+.btn .btn-left:hover {
+    background: url(../images/mapDepot/lr.png) no-repeat 0 -66px;
+}
+.btn .btn-right {
+    float: right;
+    width: 66px;
+    height: 66px;
+    background: url(../images/mapDepot/lr.png) no-repeat -66px 0;
+}
+.btn .btn-right:hover {
+    background: url(../images/mapDepot/lr.png) no-repeat -66px -66px;
+}
+
+/*tab切换栏-----开始*/
+.subtab {
+    width: 250px;
+    height: 400px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 3;
+}
+/*标题部分---h2及title开始*/
+.subtab1 {
+    width: 210px;
+    height: 68px;
+    float: left;
+    padding: 18px 20px 0px 20px;
+}
+.subtab h2 {
+    height: 38px;
+    font: 700 18px/38px simsun;
+}
+.subtab .tab-title {
+    background-color: #EEEEEE;
+    width: 210px;
+    height: 30px;
+}
+.subtab .tab-title a {
+    font-size: 14px;
+}
+.subtab .title1 {
+    width: 105px;
+    height: 30px;
+    float: left;
+    font: 12px/30px microsoft yahei;
+    text-align: center;
+    color: #888888;
+}
+/*两个ul所在的div*/
+.subtab-banner {
+    width: 500px;
+    height: 270px;
+    margin-top: 86px;
+}
+.subtab-banner .subtab1-uu {
+    float: left;
+    width: 210px;
+    height: 270px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.subtab1-uu li {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 17px;
+    color: #222;
+    /*display: list-item;*/
+}
+.subtab1-uu li a:hover {
+    text-decoration: underline;
+}
+.subtab1-uu .top1 a {
+    color: #FE6601;
+}
+.subtab1-uu li span {
+    display: block;
+    float: left;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 8px;
+    font-weight: 700;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+.subtab1-uu .top1 span {
+    font-size: 18px;
+    color: #222;
+    background-color: #fff;
+}
+.subtab1-uu .top2 span {
+    background-color: #FE6601;
+}
+.subtab1-uu .top3 span {
+    background-color: #C3C3C3;
+}
+.uu-img img {
+    width: 130px;
+    height: 80px;
+}
+.subtab1-uu .current-img {
+    display: block;
+}
+/*tab栏对应jquery中类样式的转换开始*/
+.subtab .tempattr {
+    background-color: #FF8A00;
+}
+.subtab .tempattr a {
+    color: #FFFFFF;
+}
+.subtab-banner .subtab1-uu {
+    display: none;
+}
+.subtab-banner .subtab1-uu.selected {
+    display: block;
+}
+/*tab栏对应jquery中类样式的转换结束*/
+/*tab切换栏-----结束*/
+
+
+/*内容部分*/
+.concent {
+    background-color: #EEEEEE;
+}
+/*一周精选*/
+.content-bannermi .chosen{
+    padding-top: 45px;
+    height: 258px;
+}
+/*上面标题部分*/
+.chosen .subhead1 {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ddd;
+}
+.chosen .subhead1 em {
+    display: block;
+    width: 230px;
+    height: 50px;
+    background: url(../images/mapDepot/img0.jpg) no-repeat;
+    text-indent: -2000px;
+}
+/*下面广告部分*/
+.chosen-ad {
+    margin-right: -30px;
+    /*width: 1000px;*/
+    /*height: 192px;*/
+}
+.chosen-ad li {
+    float: left;
+    padding: 8px;
+    width: 160px;
+    margin-right: 30px;
+    background-color: #fff;
+}
+.chosen-ad a {
+    display: block;
+    width: 160px;
+    height: 120px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.chosen-ad img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.chosen-ad img:hover{
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+.chosen-ad span {
+    display: block;
+    height: 30px;
+    width: 160px;
+    line-height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #2f2f2f;
+}
+/*玩家真人秀*/
+.content-bannermi .player {
+    margin-top: 50px;
+    height: 513px;
+}
+/*左侧的标题----*/
+.nav-top {
+    border-bottom: 3px solid #ddd;
+    height: 65px;
+}
+.subhead {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+/*注意：更改图片*/
+.subhead2 em {
+    display: block;
+    width: 230px;
+    float: left;
+    height: 50px;
+    background: url(../images/mapDepot/img0.jpg) no-repeat 0 -47px;
+    text-indent: -2000px;
+}
+/*右侧导航部分*/
+.nav-right {
+    float: right;
+}
+.nav-right-uu {
+    float: left;
+}
+.nav-right-uu li {
+    float: left;
+    margin-right: 10px;
+    height: 65px;
+}
+.nav-right-uu li a {
+    display: block;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #D5D5D5;
+    margin-top: 18px;
+}
+.nav-right-uu li a:hover {
+    background-color: #000;
+    color: #FFFFFF;
+}
+/*我要上传---通用*/
+.upload {
+    float: left;
+    display: block;
+    width: 83px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #FE831A;
+    margin: 18px 10px 0;
+}
+/*小竖线---通用*/
+.line {
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-right: 18px;
+    height: 30px;
+    border-right: 1px solid #DFDFDF;
+}
+/*更多---通用*/
+.more {
+    color: #FE6601;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    }
+/*最右侧小加号---通用*/
+.plus {
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    width: 13px;
+    height: 13px;
+    font: 16px/13px simsun;
+    text-align: center;
+    background-color: #FF8A00;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+/*下面广告部分*/
+.chosen-ad1 {
+    margin-right: -30px;
+
+}
+.chosen-ad1 li {
+    float: left;
+    padding: 8px;
+    width: 140px;
+    height: 188px;
+    margin-top: 17px;
+    margin-right: 17px;
+    background-color: #fff;
+}
+.chosen-ad1 .bigleft-ad {
+    float: left;
+    height: 410px;
+    width: 290px;
+    background-color: #fff;
+}
+.chosen-ad1 .bigleft-ad em {
+    display: block;
+    height: 23px;
+    width: 70px;
+    line-height: 23px;
+    padding: 0 5px;
+    margin-left: -8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #FFFFFF;
+}
+.chosen-ad1 a {
+    display: block;
+    width: 140px;
+    height: 160px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+.chosen-ad1 .bigleft-ad a {
+    display: block;
+    width: 280px;
+    height: 320px;
+    margin: 6px;
+    overflow: hidden;
+}
+.chosen-ad1 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.chosen-ad1 img:hover{
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+.chosen-ad1 span {
+    display: block;
+    height: 30px;
+    width: 140px;
+    line-height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #2f2f2f;
+}
+.chosen-ad1 .bigleft-ad span {
+    display: block;
+    width: 240px;
+    overflow: hidden;
+    font-size: 14px;
+}
+/*精美截图*/
+.screenshot {
+    margin-top: 50px;
+    height: 463px;
+}
+.chosen-ad2 {
+    margin-right: -50px;
+}
+.chosen-ad2 li {
+    float: left;
+    width: 160px;
+    height: 172px;
+    margin-right: 29px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 0 8px;
+}
+.chosen-ad2 .banner-down {
+    margin-top: 30px;
+}
+.chosen-ad2 .bigleft-ad {
+    float: left;
+    height: 374px;
+    width: 360px;
+    padding: 0 13px;
+    background-color: #fff;
+}
+.chosen-ad2 .bigleft-ad em {
+    display: block;
+    height: 23px;
+    width: 70px;
+    line-height: 23px;
+    padding: 0 5px;
+    margin-left: -13px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #FFFFFF;
+}
+.chosen-ad2 a {
+    display: block;
+    width: 160px;
+    height: 88px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.chosen-ad2 .bigleft-ad a {
+    display: block;
+    width: 355px;
+    height: 188px;
+    margin-top: 53px;
+    overflow: hidden;
+}
+.chosen-ad2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.chosen-ad2 img:hover{
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+.chosen-ad2 span {
+    display: block;
+    height: 30px;
+    width: 160px;
+    line-height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #2f2f2f;
+    margin-top: 17px;
+}
+.chosen-ad2 .bigleft-ad span {
+    display: block;
+    width: 300px;
+    overflow: hidden;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.subhead3 em {
+    display: block;
+    float: left;
+    width: 230px;
+    height: 50px;
+    background: url(../images/mapDepot/img0.jpg) no-repeat 0 -100px;
+    text-indent: -2000px;
+}
+/*天下画廊*/
+.art-gallery {
+    margin-top: 50px;
+    height: 260px;
+}
+.subhead4 em {
+    display: block;
+    float: left;
+    width: 230px;
+    height: 50px;
+    background: url(../images/mapDepot/img0.jpg) no-repeat 0 -150px;
+    text-indent: -2000px;
+}
+/*壁纸下载*/
+.wallpaper {
+    margin-top: 50px;
+    height: 462px;
+}
+.subhead5 em {
+    display: block;
+    float: left;
+    width: 230px;
+    height: 50px;
+    background: url(../images/mapDepot/img0.jpg) no-repeat 0 -200px;
+    text-indent: -2000px;
+}
+/*审核须知*/
+.audit-notes {
+    margin-top: 30px;
+    height: 90px;
+    padding: 27px 0;
+}
+.audit-notes h2 {
+    font: 700 18px/30px microsoft yahei;
+}
+.audit-notes p {
+    font: 14px/24px microsoft yahei;
+}
+/*尾部*/
+.footer {
+    height: 155px;
+    background-color: #0F0F0F;
+}
+.footer .copyRight-corp {
+    width:832px;
+    text-align:left;
+    margin:0 auto;
+    padding:15px 0 0 0;
+    font-size:12px;
+    font-family:'宋体';
+    line-height:20px;
+    display:block;
+    position:relative;"
+}
+.copyright-sp {
+    position:relative;
+    vertical-align:top;
+    top:4px;
+    display:inline-block;
+    position:relative;"
+}
+/*网易邮箱图标*/
+.mailbox {
+    width:118px;
+    height:31px;
+    display:inline-block;
+    cursor:pointer;
+    background:url(../images/mapDepot/netease.2.png) no-repeat;
+}
+/*网易游戏图标*/
+.gamepic {
+    width:134px;
+    height:31px;
+    padding-right:15px;
+    display:inline-block;
+    cursor:pointer;
+    background:url(../images/mapDepot/nie.2.png) no-repeat;
+}
+.ncp-l3 {
+    display:inline-block;
+    padding-top:10px;
+}
+.sidebar {
+    position: fixed;
+    left: 50%;
+    margin-left: 550px;
+    bottom: 130px;
+    width: 128px;
+    z-index: 3;
+}
+.sidebar a {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 5px;
+    background: url(../images/mapDepot/png1.png) no-repeat;
+}
+.sidebar .right-nav1 {
+    background-position: 0 0;
+}
+.sidebar .right-nav1:hover {
+    background-position: -42px 0;
+}
+.sidebar .right-nav2 {
+    background-position: 0 -47px;
+}
+.sidebar .right-nav2:hover {
+    background-position: -42px -47px;
+}
+.sidebar .right-nav3 {
+    background-position: 0 -94px;
+}
+.sidebar .right-nav3:hover {
+    background-position: -42px -94px;
+}
+.sidebar .right-nav4 {
+    background-position: 0 -141px;
+}
+.sidebar .right-nav4:hover {
+    background-position: -42px -141px;
+}
+.sidebar .right-nav5 {
+    background-position: 0 -189px;
+}
+.sidebar .right-nav5:hover {
+    background-position: -42px -189px;
+}

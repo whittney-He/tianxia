@@ -1,0 +1,299 @@
+/*头部导航--复制首页面的*/
+
+/*主体div*/
+.all-bg {
+    width: 1349px;
+    height: 921px;
+    background: url("../images/login/login_bg.jpg") no-repeat top center;
+    /*position:relative;*/
+    overflow: hidden;
+}
+
+/*header部分*/
+.login-header {
+    position: relative;
+    height: 430px;
+    width: 1349px;
+}
+
+/*天下3--logo部分*/
+.logo {
+    width: 168px;
+    height: 76px;
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    margin-left: -84px;
+}
+
+.logo-a {
+    display: inline-block;
+    width: 168px;
+    height: 76px;
+    text-indent: -2000px;
+}
+
+/*nav部分*/
+.login-header-nav {
+    display: inline-block;
+    width: 200px;
+    height: 28px;
+    position: absolute;
+    top: 22px;
+    right: 252px;
+    text-align: right;
+    /*margin-top: 21px;*/
+    /*margin-left: 958px;*/
+    /*float: right;*/
+    /*margin-right:205px;*/
+}
+
+.share a {
+    font: 14px/28px "microsoft yahei";
+    margin-left: 12px;
+}
+
+/*share部分开始*/
+.login-header-share {
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    right: 99px;
+}
+.login-header-share a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /*background-color: red;*/
+    float: left;
+    margin-right: 1px;
+    text-indent: -2000px;
+
+}
+.share-last-a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /*background-color: red;*/
+    position: absolute;
+    top:25px;
+    right:76px;
+    text-align: center;
+    text-indent: -2000px;
+
+}
+
+/*中间部分开始*/
+
+.login-center {
+    height: 443px;
+    width: 1339px;
+    position: relative;
+}
+
+.center-h3 {
+    font: 700 20px "黑体";
+    color: #FF662D;
+    margin-top: 48px;
+    margin-left: 85px;
+    margin-bottom: 24px;
+    /*display: inline-block;*/
+}
+
+.center-dv-left {
+    width: 220px;
+    height: 283px;
+    margin-left: 84px;
+    overflow: hidden;
+    float: left;
+    /*display: inline-block;*/
+
+}
+.left-step1 {
+    margin-top: 20px;
+}
+.left-step2 {
+    margin-top: 45px;
+}
+.stpe1-h {
+
+}
+
+.stpe2-h strong,.stpe1-h strong {
+    font: 700 34px "黑体";
+    color: #FF662D;
+
+}
+
+.stpe2-h span ,.stpe1-h span {
+    font: 16px "microsoft yahei";
+    color: #FF662D;
+    display: inline-block;
+    height: 21px;
+    vertical-align: super;
+    margin-left: 5px;
+
+}
+
+.left-step1 a {
+    display: inline-block;
+    width: 175px;
+    height: 45px;
+    background: url("../images/login/login_btn.png") no-repeat -180px -200px;
+    text-indent: -2000px;
+}
+.left-step1 a:hover {
+    background-position: 0 -200px;
+}
+.left-step2 a {
+    display: inline-block;
+    width: 175px;
+    height: 45px;
+    background: url("../images/login/login_btn.png") no-repeat -180px -250px;
+    text-indent: -2000px;
+}
+.left-step2 a:hover {
+    background-position: 0 -250px;
+}
+
+.center-dv-right {
+    float: left;
+    width: 234px;
+    height: 283px;
+    /*margin-left: 84px;*/
+    overflow: hidden;
+}
+.center-dv-right .one-a{
+    text-indent: -2000px;
+    margin-top: 25px;
+    margin-left: 46px;
+    display: inline-block;
+    width: 175px;
+    height: 88px;
+    background: url("../images/login/login_ad1.jpg") no-repeat ;
+}
+.center-dv-right .two-a{
+    text-indent: -2000px;
+
+    margin-top: 27px;
+    margin-left: 46px;
+    display: inline-block;
+    width: 175px;
+    height: 88px;
+    background: url("../images/login/login_ad2.jpg") no-repeat ;
+}
+
+.register {
+    width: 270px;
+    height:238px;
+    position: absolute;
+    z-index: 10;
+    top:-48px;
+    right:410px;
+}
+.register input {
+    /*background: url("../images/login/");*/
+    width: 257px;
+    height: 50px;
+    color: #8A9096;
+    font:14px/50px "microsoft yahei";
+    padding-left: 5px;
+}
+.register #txt2 {
+    margin-top: 14px;
+}
+.register #btn {
+    width: 12px;
+    height:12px;
+    background-color: #85898B;
+    margin-right: 5px;
+    /*margin-top: 18px;*/
+}
+.register #btn:hover {
+    cursor: pointer;
+}
+.btn-p {
+    color: #7C7C7C;
+    margin-top: 18px;
+    display: inline-block;
+}
+.register #btn1{
+    margin-top: 12px;
+    color: #fff;
+    background-color: #E76107;
+    font-size:16px ;
+    cursor: pointer;
+}
+.register #btn1:hover{
+    background-color: #EBA724;
+}
+/*中间部分结束*/
+
+/*footer部分*/
+.login-footer {
+    width: 1349px;
+    overflow: hidden;
+    height:100px;
+    background-color: #000000;
+}
+.login-footer .footer-net-a{
+    display: inline-block;
+    margin-left: 243px;
+    /*margin-top: 33px;*/
+}
+.login-footer li {
+    float: left;
+    margin-top: 33px;
+}
+.login-footer li.split {
+    width: 2px;
+    height: 31px;
+    background-color: #E60013;
+    margin: 34px 15px  0 15px;
+}
+.login-footer .footer-game-a{
+    display: inline-block;
+}
+.login-footer .footer-wen-a {
+    margin-left: 15px;
+}
+.login-footer .more-a {
+    margin-top: 27px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.login-footer .more-a a {
+    color: #AFAFAF;
+    font-size: 12px;
+    font-family: simSun;
+    margin: 0 4px;
+}
+.login-footer .more-a span {
+    font-size: 16px;
+    color: #AFAFAF;
+}
+.login-footer .copyright{
+    color: #AFAFAF;
+    font-family: simSun;
+    display: inline-block;
+    margin-left: 24px;
+}
+.login-footer .parent {
+    color: #fff;
+    display: inline-block;
+    width: 136px;
+    height: 28px;
+    text-align: center;
+    background-color: #610000;
+    margin-left: 12px;
+    font-family: simsun;
+}
+.login-footer .last-p {
+    display: inline-block;
+    margin-left: 485px;
+    color: #AFAFAF;
+    font-family: simSun;
+
+}
+
